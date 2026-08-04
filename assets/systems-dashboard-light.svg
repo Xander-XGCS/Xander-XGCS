@@ -1,92 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
-  <title id="title">Public systems status board</title>
-  <desc id="desc">Five systems in view: Heatmap Strategy Lab is in active research, Valence is in private development, Kairos Dynamics is in formation, Berean is deployed, and Tikkara is foundational research and development.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+  <title id="title">Public systems register</title>
+  <desc id="desc">A hard-edged systems register listing Heatmap Strategy Lab, Valence, Kairos Dynamics, Berean, and Tikkara with their current development states and functions.</desc>
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .active-pulse { transform-box: fill-box; transform-origin: center; animation: activePulse 10s ease-in-out infinite; }
-    .field-sweep { animation: fieldSweep 16s ease-in-out infinite; }
-    @keyframes activePulse { 0%, 100% { opacity: .58; transform: scale(.88); } 50% { opacity: 1; transform: scale(1); } }
-    @keyframes fieldSweep { 0%, 8% { transform: translateY(0); opacity: .12; } 92%, 100% { transform: translateY(304px); opacity: .04; } }
+    .active-marker, .status-light { animation: markerBreath 12s ease-in-out infinite; }
+    .light-02 { animation-delay: -2s; }
+    .light-03 { animation-delay: -4s; }
+    .light-04 { animation-delay: -6s; }
+    .light-05 { animation-delay: -8s; }
+    .row-activity { opacity: 0; animation: rowToggle 25s steps(1, end) infinite; }
+    .row-02 { animation-delay: 5s; }
+    .row-03 { animation-delay: 10s; }
+    .row-04 { animation-delay: 15s; }
+    .row-05 { animation-delay: 20s; }
+    .circuit-pulse { opacity: .08; animation: circuitPulse 14s ease-in-out infinite; }
+    .circuit-02 { animation-delay: -7s; }
+    @keyframes markerBreath { 0%, 100% { opacity: .55; } 50% { opacity: .95; } }
+    @keyframes rowToggle { 0%, 12% { opacity: .055; } 13%, 100% { opacity: 0; } }
+    @keyframes circuitPulse { 0%, 100% { opacity: .08; } 24% { opacity: .62; } 44% { opacity: .08; } }
     @media (prefers-reduced-motion: reduce) {
-      .active-pulse, .field-sweep { animation: none !important; }
+      .active-marker, .status-light, .row-activity, .circuit-pulse { animation: none !important; }
     }
   </style>
-  <rect width="1000" height="700" fill="#eef3f8"/>
-  <rect x="20" y="20" width="960" height="660" rx="8" fill="#ffffff" stroke="#c4d2df"/>
-  <text class="sans" x="48" y="62" fill="#0c1a2a" font-size="23" font-weight="700">SYSTEMS STATUS BOARD</text>
-  <text class="mono" x="820" y="61" fill="#5c7085" font-size="14">PUBLIC // 2026</text>
+
+  <rect width="1000" height="650" fill="#eef0f2"/>
+  <polygon points="18,28 28,18 972,18 982,28 982,622 972,632 28,632 18,622" fill="#f8f9fa" stroke="#7f8b95"/>
+  <path d="M18 18H34M18 18V34M982 18H966M982 18V34M18 632H34M18 632V616M982 632H966M982 632V616" stroke="#6f5c32" stroke-width="2"/>
+  <text class="sans" x="48" y="62" fill="#18222b" font-size="23" font-weight="700" letter-spacing=".3">SYSTEMS REGISTER</text>
+  <text class="mono" x="746" y="61" fill="#4c5a66" font-size="13">PUBLIC SURFACE / REV 2026.08</text>
+  <path d="M48 78H952" stroke="#7f8b95"/>
 
   <g class="mono">
-    <rect x="48" y="88" width="208" height="98" rx="6" fill="#f6f9fc" stroke="#ccd8e4"/>
-    <text x="66" y="117" fill="#5c7085" font-size="14">PRIMARY MISSION</text>
-    <text x="66" y="148" fill="#0c1a2a" font-size="18">Find signal early</text>
-    <text x="66" y="170" fill="#0c1a2a" font-size="18">enough to act.</text>
+    <polygon points="48,102 56,94 952,94 952,164 944,172 48,172" fill="#f1f3f5" stroke="#7f8b95"/>
+    <path d="M350 94V172M650 94V172" stroke="#9aa4ac"/>
+    <rect x="48" y="94" width="4" height="78" fill="#6f5c32"/>
+    <text x="68" y="120" fill="#4c5a66" font-size="12" letter-spacing="1.2">PRIMARY MISSION</text>
+    <text x="68" y="145" fill="#18222b" font-size="15">FIND SIGNAL EARLY</text>
+    <text x="68" y="163" fill="#18222b" font-size="15">ENOUGH TO ACT</text>
+    <text x="370" y="120" fill="#4c5a66" font-size="12" letter-spacing="1.2">OPERATING MODEL</text>
+    <text x="370" y="151" fill="#2f6f83" font-size="17">HUMAN + MACHINE</text>
+    <text x="670" y="120" fill="#4c5a66" font-size="12" letter-spacing="1.2">SYSTEMS IN VIEW</text>
+    <text x="670" y="153" fill="#18222b" font-size="25" font-weight="700">05</text>
+    <text x="724" y="151" fill="#4c5a66" font-size="12">SELECTIVE DISCLOSURE</text>
 
-    <rect x="280" y="88" width="208" height="98" rx="6" fill="#f6f9fc" stroke="#ccd8e4"/>
-    <text x="298" y="117" fill="#5c7085" font-size="14">OPERATING MODEL</text>
-    <text x="298" y="157" fill="#087ca3" font-size="18">HUMAN + MACHINE</text>
+    <rect x="48" y="196" width="904" height="40" fill="#e9edf0" stroke="#7f8b95"/>
+    <text x="78" y="221" fill="#4c5a66" font-size="12" letter-spacing="1.2">SYSTEM / IDENTIFIER</text>
+    <text x="410" y="221" fill="#4c5a66" font-size="12" letter-spacing="1.2">STATE</text>
+    <text x="672" y="221" fill="#4c5a66" font-size="12" letter-spacing="1.2">FUNCTION</text>
+    <path d="M34 214V584M34 279H48M34 349H48M34 419H48M34 489H48M34 559H48M966 214V584M952 279H966M952 349H966M952 419H966M952 489H966M952 559H966" fill="none" stroke="#c2c9ce"/>
+    <path class="circuit-pulse circuit-01" d="M34 214V419M34 279H48M34 349H48M34 419H48" fill="none" stroke="#336f80"/>
+    <path class="circuit-pulse circuit-02" d="M966 349V584M952 349H966M952 419H966M952 489H966M952 559H966" fill="none" stroke="#6f5c32"/>
 
-    <rect x="512" y="88" width="208" height="98" rx="6" fill="#f6f9fc" stroke="#ccd8e4"/>
-    <text x="530" y="117" fill="#5c7085" font-size="14">PRIMARY DOMAIN</text>
-    <text x="530" y="157" fill="#82651f" font-size="18">DECISION INTEL.</text>
+    <g transform="translate(0 246)">
+      <rect x="48" y="0" width="904" height="66" fill="#f8f9fa" stroke="#b3bcc3"/>
+      <rect class="row-activity row-01" x="53" y="1" width="898" height="64" fill="#336f80"/>
+      <rect class="active-marker" x="48" y="0" width="5" height="66" fill="#2f6e52"/>
+      <text x="72" y="25" fill="#4c5a66" font-size="11">SYS-01 / MARKET RESEARCH</text>
+      <text x="72" y="48" fill="#18222b" font-size="17">HEATMAP STRATEGY LAB</text>
+      <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#f1f3f5" stroke="#668573"/>
+      <text x="504" y="38" fill="#2f6e52" font-size="12" text-anchor="middle">ACTIVE RESEARCH</text>
+      <text x="672" y="39" fill="#34424e" font-size="14">MARKET-FIELD MODELING</text>
+      <rect class="status-light light-01" x="934" y="28" width="7" height="10" fill="#2f6e52"/>
+    </g>
 
-    <rect x="744" y="88" width="208" height="98" rx="6" fill="#f6f9fc" stroke="#ccd8e4"/>
-    <text x="762" y="117" fill="#5c7085" font-size="14">SYSTEMS IN VIEW</text>
-    <text x="762" y="163" fill="#168a5b" font-size="34" font-weight="700">05</text>
+    <g transform="translate(0 316)">
+      <rect x="48" y="0" width="904" height="66" fill="#f8f9fa" stroke="#b3bcc3"/>
+      <rect class="row-activity row-02" x="53" y="1" width="898" height="64" fill="#336f80"/>
+      <rect x="48" y="0" width="5" height="66" fill="#65727c"/>
+      <text x="72" y="25" fill="#4c5a66" font-size="11">SYS-02 / NETWORKS</text>
+      <text x="72" y="48" fill="#18222b" font-size="17">VALENCE</text>
+      <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#f1f3f5" stroke="#7f8b95"/>
+      <text x="504" y="38" fill="#34424e" font-size="12" text-anchor="middle">PRIVATE DEVELOPMENT</text>
+      <text x="672" y="39" fill="#34424e" font-size="14">NETWORK COORDINATION</text>
+      <rect class="status-light light-02" x="934" y="28" width="7" height="10" fill="#65727c"/>
+    </g>
+
+    <g transform="translate(0 386)">
+      <rect x="48" y="0" width="904" height="66" fill="#f8f9fa" stroke="#b3bcc3"/>
+      <rect class="row-activity row-03" x="53" y="1" width="898" height="64" fill="#6f5c32"/>
+      <rect x="48" y="0" width="5" height="66" fill="#806d3f"/>
+      <text x="72" y="25" fill="#4c5a66" font-size="11">SYS-03 / PRODUCT FORMATION</text>
+      <text x="72" y="48" fill="#18222b" font-size="17">KAIROS DYNAMICS</text>
+      <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#f1f3f5" stroke="#8b7a55"/>
+      <text x="504" y="38" fill="#6f5c32" font-size="12" text-anchor="middle">FORMATION</text>
+      <text x="672" y="39" fill="#34424e" font-size="14">DEPLOYABLE DECISION SYSTEMS</text>
+      <rect class="status-light light-03" x="934" y="28" width="7" height="10" fill="#806d3f"/>
+    </g>
+
+    <g transform="translate(0 456)">
+      <rect x="48" y="0" width="904" height="66" fill="#f8f9fa" stroke="#b3bcc3"/>
+      <rect class="row-activity row-04" x="53" y="1" width="898" height="64" fill="#336f80"/>
+      <rect x="48" y="0" width="5" height="66" fill="#65727c"/>
+      <text x="72" y="25" fill="#4c5a66" font-size="11">SYS-04 / REASONING</text>
+      <text x="72" y="48" fill="#18222b" font-size="17">BEREAN</text>
+      <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#f1f3f5" stroke="#7f8b95"/>
+      <text x="504" y="38" fill="#34424e" font-size="12" text-anchor="middle">DEPLOYED</text>
+      <text x="672" y="39" fill="#34424e" font-size="14">EVIDENCE-GROUNDED REASONING</text>
+      <rect class="status-light light-04" x="934" y="28" width="7" height="10" fill="#65727c"/>
+    </g>
+
+    <g transform="translate(0 526)">
+      <rect x="48" y="0" width="904" height="66" fill="#f8f9fa" stroke="#b3bcc3"/>
+      <rect class="row-activity row-05" x="53" y="1" width="898" height="64" fill="#336f80"/>
+      <rect x="48" y="0" width="5" height="66" fill="#65727c"/>
+      <text x="72" y="25" fill="#4c5a66" font-size="11">SYS-05 / PROCEDURAL R&amp;D</text>
+      <text x="72" y="48" fill="#18222b" font-size="17">TIKKARA</text>
+      <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#f1f3f5" stroke="#7f8b95"/>
+      <text x="504" y="38" fill="#34424e" font-size="12" text-anchor="middle">FOUNDATIONAL R&amp;D</text>
+      <text x="672" y="39" fill="#34424e" font-size="14">PERSISTENT WORLD SYSTEMS</text>
+      <rect class="status-light light-05" x="934" y="28" width="7" height="10" fill="#65727c"/>
+    </g>
   </g>
 
-  <g class="mono">
-    <text x="72" y="229" fill="#5c7085" font-size="14">SYSTEM</text>
-    <text x="490" y="229" fill="#5c7085" font-size="14" text-anchor="middle">STATE</text>
-    <text x="650" y="229" fill="#5c7085" font-size="14">FUNCTION</text>
-    <path d="M48 243H952" stroke="#ccd8e4"/>
-    <rect class="field-sweep" x="48" y="252" width="904" height="64" rx="5" fill="#087ca3" opacity=".04"/>
-
-    <g transform="translate(0 252)">
-      <circle class="active-pulse" cx="64" cy="32" r="7" fill="#168a5b"/>
-      <text x="84" y="38" fill="#0c1a2a" font-size="17">HEATMAP STRATEGY LAB</text>
-      <rect x="380" y="13" width="220" height="38" rx="19" fill="#e8f6ef" stroke="#8cc7a9"/>
-      <text x="490" y="37" fill="#116a45" font-size="13" text-anchor="middle">ACTIVE RESEARCH</text>
-      <text x="650" y="38" fill="#51677e" font-size="14">MARKET-FIELD MODELING</text>
-      <path d="M48 70H952" stroke="#e1e8ef"/>
-    </g>
-
-    <g transform="translate(0 328)">
-      <circle cx="64" cy="32" r="7" fill="#087ca3"/>
-      <text x="84" y="38" fill="#0c1a2a" font-size="17">VALENCE</text>
-      <rect x="380" y="13" width="220" height="38" rx="19" fill="#e7f5fa" stroke="#90c8dc"/>
-      <text x="490" y="37" fill="#086482" font-size="13" text-anchor="middle">PRIVATE DEVELOPMENT</text>
-      <text x="650" y="38" fill="#51677e" font-size="14">NETWORK COORDINATION</text>
-      <path d="M48 70H952" stroke="#e1e8ef"/>
-    </g>
-
-    <g transform="translate(0 404)">
-      <circle cx="64" cy="32" r="7" fill="#9d7b27"/>
-      <text x="84" y="38" fill="#0c1a2a" font-size="17">KAIROS DYNAMICS</text>
-      <rect x="380" y="13" width="220" height="38" rx="19" fill="#f8f2df" stroke="#d9c27a"/>
-      <text x="490" y="37" fill="#735816" font-size="13" text-anchor="middle">FORMATION</text>
-      <text x="650" y="38" fill="#51677e" font-size="14">DEPLOYABLE DECISION SYSTEMS</text>
-      <path d="M48 70H952" stroke="#e1e8ef"/>
-    </g>
-
-    <g transform="translate(0 480)">
-      <circle cx="64" cy="32" r="7" fill="#666ac7"/>
-      <text x="84" y="38" fill="#0c1a2a" font-size="17">BEREAN</text>
-      <rect x="380" y="13" width="220" height="38" rx="19" fill="#efeffc" stroke="#b7b8ea"/>
-      <text x="490" y="37" fill="#4b4fa8" font-size="13" text-anchor="middle">DEPLOYED</text>
-      <text x="650" y="38" fill="#51677e" font-size="14">EVIDENCE-GROUNDED REASONING</text>
-      <path d="M48 70H952" stroke="#e1e8ef"/>
-    </g>
-
-    <g transform="translate(0 556)">
-      <circle cx="64" cy="32" r="7" fill="#b25b4c"/>
-      <text x="84" y="38" fill="#0c1a2a" font-size="17">TIKKARA</text>
-      <rect x="380" y="13" width="220" height="38" rx="19" fill="#faece9" stroke="#dfada5"/>
-      <text x="490" y="37" fill="#93483d" font-size="13" text-anchor="middle">FOUNDATIONAL R&amp;D</text>
-      <text x="650" y="38" fill="#51677e" font-size="14">PERSISTENT WORLD SYSTEMS</text>
-    </g>
-  </g>
-
-  <text class="mono" x="48" y="655" fill="#5c7085" font-size="14">PUBLIC SUMMARY // ACTIVE DEVELOPMENT IS SELECTIVELY DISCLOSED</text>
+  <text class="mono" x="48" y="615" fill="#4c5a66" font-size="12">DISCLOSURE CLASS / PUBLIC  ·  ARCHITECTURE DETAIL / WITHHELD</text>
 </svg>

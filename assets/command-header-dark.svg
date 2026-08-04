@@ -1,39 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
   <title id="title">Xander Gray public operating profile</title>
-  <desc id="desc">A restrained command header identifying Xander Gray as founder and CEO, systems architect, and quantitative market researcher. Current focus is decision systems, market research, and human-controlled AI.</desc>
+  <desc id="desc">A hard-edged institutional header identifying Xander Gray as founder and CEO, systems architect, and quantitative market researcher. A compact line plot represents signal research.</desc>
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .status-pulse { transform-box: fill-box; transform-origin: center; animation: statusPulse 9s ease-in-out infinite; }
-    .signal-trace { animation: signalDrift 14s linear infinite; }
-    @keyframes statusPulse { 0%, 100% { opacity: .62; transform: scale(.86); } 50% { opacity: 1; transform: scale(1); } }
-    @keyframes signalDrift { to { stroke-dashoffset: -96; } }
+    .state-marker { animation: markerBreath 12s ease-in-out infinite; }
+    .circuit-segment { opacity: .12; animation: circuitPulse 15s ease-in-out infinite; }
+    .circuit-b { animation-delay: -5s; }
+    .circuit-c { animation-delay: -10s; }
+    @keyframes markerBreath { 0%, 100% { opacity: .58; } 50% { opacity: .96; } }
+    @keyframes circuitPulse { 0%, 100% { opacity: .12; } 18% { opacity: .88; } 36% { opacity: .12; } }
     @media (prefers-reduced-motion: reduce) {
-      .status-pulse, .signal-trace { animation: none !important; }
+      .state-marker, .circuit-segment { animation: none !important; }
     }
   </style>
-  <rect width="1000" height="320" fill="#07101d"/>
-  <rect x="20" y="20" width="960" height="280" rx="8" fill="#0b1626" stroke="#29435f"/>
-  <path d="M20 82H980" stroke="#29435f"/>
-  <path d="M44 45H214" stroke="#d5b96e" stroke-width="3"/>
-  <text class="mono" x="44" y="66" fill="#d5b96e" font-size="16" letter-spacing="1.6">PUBLIC OPERATING PROFILE // XGCS</text>
-  <circle class="status-pulse" cx="946" cy="51" r="6" fill="#4bd69a"/>
 
-  <text class="sans" x="52" y="148" fill="#f4f7fb" font-size="45" font-weight="700" letter-spacing=".7">XANDER GRAY</text>
-  <text class="mono" x="52" y="185" fill="#9eb2c7" font-size="16">FOUNDER &amp; CEO · SYSTEMS ARCHITECT · QUANTITATIVE RESEARCHER</text>
+  <rect width="1000" height="300" fill="#080c10"/>
+  <polygon points="18,28 28,18 972,18 982,28 982,272 972,282 28,282 18,272" fill="#0d1319" stroke="#34414d"/>
+  <path d="M18 72H982M720 72V282" stroke="#34414d"/>
+  <path d="M18 18H34M18 18V34M982 18H966M982 18V34M18 282H34M18 282V266M982 282H966M982 282V266" stroke="#b8a06a" stroke-width="2"/>
+  <rect x="42" y="39" width="5" height="14" fill="#b8a06a"/>
+  <text class="mono" x="60" y="52" fill="#c6ced5" font-size="14" letter-spacing="1.8">PUBLIC OPERATING PROFILE / XGCS</text>
+  <text class="mono" x="794" y="52" fill="#99a5af" font-size="12" letter-spacing="1">SYSTEM STATE</text>
+  <rect class="state-marker" x="942" y="42" width="9" height="9" fill="#75a98d"/>
 
-  <rect x="52" y="211" width="666" height="45" rx="5" fill="#0f2033" stroke="#29435f"/>
-  <text class="mono" x="70" y="230" fill="#6f879f" font-size="13" letter-spacing="1.1">CURRENT FOCUS</text>
-  <text class="mono" x="70" y="248" fill="#52d6ff" font-size="14">MARKET FIELDS / DECISION INTELLIGENCE / HUMAN-CONTROLLED AI</text>
+  <text class="sans" x="48" y="137" fill="#e8edf2" font-size="45" font-weight="700" letter-spacing=".4">XANDER GRAY</text>
+  <text class="mono" x="50" y="173" fill="#aab4bc" font-size="15">FOUNDER &amp; CEO / SYSTEMS ARCHITECT / QUANTITATIVE MARKET RESEARCH</text>
 
-  <g transform="translate(780 106)">
-    <circle cx="76" cy="66" r="60" fill="none" stroke="#29435f" stroke-width="2"/>
-    <circle cx="76" cy="66" r="39" fill="none" stroke="#375b7d" stroke-width="2" stroke-dasharray="4 7"/>
-    <path d="M16 66H136M76 6V126" stroke="#29435f"/>
-    <path class="signal-trace" d="M22 81C41 47 58 88 76 60S111 38 130 57" fill="none" stroke="#d5b96e" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="12 8"/>
-    <circle cx="76" cy="66" r="5" fill="#52d6ff"/>
+  <polygon points="48,201 676,201 684,209 684,240 676,248 48,248" fill="#111a22" stroke="#34414d"/>
+  <rect x="48" y="201" width="4" height="47" fill="#72a8b8"/>
+  <text class="mono" x="66" y="220" fill="#99a5af" font-size="12" letter-spacing="1.2">CURRENT VECTOR</text>
+  <text class="mono" x="66" y="239" fill="#8fb8c4" font-size="14">MARKET FIELDS / DECISION INTELLIGENCE / HUMAN-CONTROLLED AI</text>
+  <text class="mono" x="48" y="269" fill="#99a5af" font-size="12">SILICON VALLEY, CA  /  PUBLIC RESEARCH SURFACE</text>
+
+  <g class="mono">
+    <text x="748" y="94" fill="#99a5af" font-size="12" letter-spacing="1.2">SIGNAL FIELD / COMPOSITE</text>
+    <polygon points="748,107 944,107 952,115 952,203 756,203 748,195" fill="#0a1015" stroke="#46535e"/>
+    <path d="M748 131H952M748 155H952M748 179H952M789 107V203M830 107V203M871 107V203M912 107V203" stroke="#1d2933"/>
+    <path d="M756 180L780 169L804 174L828 145L852 152L876 127L900 136L924 118L944 123" fill="none" stroke="#72a8b8" stroke-width="2"/>
+    <path class="circuit-segment circuit-a" d="M756 180L780 169L804 174" fill="none" stroke="#b8a06a" stroke-width="2"/>
+    <path class="circuit-segment circuit-b" d="M804 174L828 145L852 152L876 127" fill="none" stroke="#b8a06a" stroke-width="2"/>
+    <path class="circuit-segment circuit-c" d="M876 127L900 136L924 118L944 123" fill="none" stroke="#b8a06a" stroke-width="2"/>
+    <rect class="circuit-segment circuit-a" x="801" y="171" width="6" height="6" fill="#b8a06a"/>
+    <rect class="circuit-segment circuit-b" x="873" y="124" width="6" height="6" fill="#b8a06a"/>
+    <rect class="circuit-segment circuit-c" x="921" y="115" width="6" height="6" fill="#75a98d"/>
+    <text x="748" y="229" fill="#99a5af" font-size="12">MODE / RESEARCH</text>
+    <text x="748" y="252" fill="#99a5af" font-size="12">CONTROL / HUMAN</text>
+    <text x="902" y="252" fill="#8db89f" font-size="12">ACTIVE</text>
   </g>
-
-  <text class="mono" x="44" y="282" fill="#8298ae" font-size="14">SILICON VALLEY, CA</text>
-  <text class="mono" x="826" y="282" fill="#7be6ad" font-size="14">STATUS // ACTIVE</text>
 </svg>
