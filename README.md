@@ -27,7 +27,7 @@ The question connecting the work is straightforward:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/systems-dashboard-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/systems-dashboard-light.svg">
-  <img alt="Public systems board showing five projects and their current development states" src="assets/systems-dashboard-light.svg" width="100%">
+  <img alt="Public systems register showing five projects and their current development states" src="assets/systems-dashboard-light.svg" width="100%">
 </picture>
 
 ## Current Operations
