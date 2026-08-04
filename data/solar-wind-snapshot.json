@@ -1,0 +1,39 @@
+{
+  "dataset": "NOAA SWPC Real-Time Solar Wind",
+  "snapshot": "2026-08-04T07:50:00Z",
+  "spacecraft": "SOLAR1",
+  "interval": "1 minute",
+  "sources": {
+    "plasma": "https://services.swpc.noaa.gov/json/rtsw/rtsw_wind_1m.json",
+    "magnetic_field": "https://services.swpc.noaa.gov/json/rtsw/rtsw_mag_1m.json",
+    "planetary_k_index": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json"
+  },
+  "latest": {
+    "proton_speed_km_s": 363.5,
+    "proton_density_p_cm3": 6.32,
+    "bz_gsm_nt": -4.03,
+    "planetary_k_index": 3.0,
+    "planetary_k_index_time": "2026-08-04T03:00:00Z"
+  },
+  "samples": [
+    { "time": "2026-08-04T07:32:00Z", "speed": 362.8, "density": 7.24, "bz": -6.41 },
+    { "time": "2026-08-04T07:33:00Z", "speed": 361.4, "density": 7.02, "bz": -6.27 },
+    { "time": "2026-08-04T07:34:00Z", "speed": 362.9, "density": 6.68, "bz": -6.61 },
+    { "time": "2026-08-04T07:35:00Z", "speed": 358.8, "density": 6.55, "bz": -6.48 },
+    { "time": "2026-08-04T07:36:00Z", "speed": 362.4, "density": 7.94, "bz": -6.53 },
+    { "time": "2026-08-04T07:37:00Z", "speed": 376.2, "density": 9.33, "bz": -5.50 },
+    { "time": "2026-08-04T07:38:00Z", "speed": 374.8, "density": 8.98, "bz": -2.70 },
+    { "time": "2026-08-04T07:39:00Z", "speed": 372.5, "density": 8.84, "bz": -2.83 },
+    { "time": "2026-08-04T07:40:00Z", "speed": 361.6, "density": 7.92, "bz": -3.53 },
+    { "time": "2026-08-04T07:41:00Z", "speed": 360.8, "density": 6.99, "bz": -7.02 },
+    { "time": "2026-08-04T07:42:00Z", "speed": 364.4, "density": 7.54, "bz": -6.86 },
+    { "time": "2026-08-04T07:43:00Z", "speed": 366.6, "density": 7.07, "bz": -6.78 },
+    { "time": "2026-08-04T07:44:00Z", "speed": 363.4, "density": 6.80, "bz": -6.52 },
+    { "time": "2026-08-04T07:45:00Z", "speed": 363.8, "density": 6.85, "bz": -5.86 },
+    { "time": "2026-08-04T07:46:00Z", "speed": 367.2, "density": 6.48, "bz": -5.82 },
+    { "time": "2026-08-04T07:47:00Z", "speed": 372.1, "density": 6.83, "bz": -5.84 },
+    { "time": "2026-08-04T07:48:00Z", "speed": 361.5, "density": 6.70, "bz": -4.77 },
+    { "time": "2026-08-04T07:49:00Z", "speed": 364.0, "density": 6.98, "bz": -4.56 },
+    { "time": "2026-08-04T07:50:00Z", "speed": 363.5, "density": 6.32, "bz": -4.03 }
+  ]
+}

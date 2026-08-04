@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/command-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/command-header-light.svg">
-  <img alt="Xander Gray — founder and CEO, systems architect, and quantitative market researcher" src="assets/command-header-light.svg" width="100%">
+  <img alt="Xander Gray — founder and CEO, systems architect, and quantitative market researcher, with cached NOAA solar-wind telemetry" src="assets/command-header-light.svg" width="100%">
 </picture>
 
 <p align="center">
