@@ -1,152 +1,136 @@
-# Xander Gray
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/command-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/command-header-light.svg">
+  <img alt="Xander Gray — founder and CEO, systems architect, and quantitative market researcher" src="assets/command-header-light.svg" width="100%">
+</picture>
 
-Founder & CEO, XG Capital Strategies  
-Building systems for capital allocation, network intelligence, market analysis, and strategic coordination.
+<p align="center">
+  <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
+  &nbsp;·&nbsp;
+  <a href="https://xgcapitalstrategies.com/xg-capital-insights">XG Capital Insights</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:xander@xgcapitalstrategies.com">Contact</a>
+</p>
 
----
+## Mission
 
-## Focus
+I’m the founder and CEO of **XG Capital Strategies**. I build decision systems for markets, capital allocation, network coordination, and problems where the useful signal is distributed across time, people, and imperfect data.
 
-I work on problems at the intersection of:
+I usually start building when the available tools flatten a problem that needs to be understood as a whole. That has taken me into quantitative market research, machine learning, persistent memory, agent systems, network intelligence, procedural simulation, and self-hosted AI.
 
-* Capital formation
-* Network dynamics
-* Information asymmetry
-* Strategic decision systems
-* Market structure
-* AI-assisted coordination
+The question connecting the work is straightforward:
 
-The common thread is signal: finding it early, preserving the context around it, and turning it into decisions that compound.
+> **How do you find the signal that matters early enough to act on it?**
 
----
+## Systems Status
 
-## Current Work
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/systems-dashboard-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/systems-dashboard-light.svg">
+  <img alt="Public systems board showing five projects and their current development states" src="assets/systems-dashboard-light.svg" width="100%">
+</picture>
+
+## Current Operations
+
+### Heatmap Strategy Lab
+
+`ACTIVE RESEARCH` · `MARKETS` · `MACHINE LEARNING`
+
+A research environment for studying market structure across equities and digital assets. Rather than treating indicators as unrelated lines, the lab represents the market as an evolving, multiscale field built from price, volume, pressure, momentum, and their relationships.
+
+The current work spans market-state heatmaps, price and volume semantics, full-field market-state prediction, convolutional and temporal models, walk-forward and out-of-sample validation, and the risk, execution, sizing, and position-management logic required to turn research into a testable system. Human-readable diagnostics remain part of the design, not an afterthought.
+
+<details>
+<summary><strong>Research focus</strong></summary>
+
+<br>
+
+- Multiscale price and volume semantics
+- Field-state and phase representation
+- Full heatmap-edge prediction
+- CNN and temporal-model experiments
+- Out-of-sample and walk-forward validation
+- Risk, sizing, execution, and position management
+- Human-readable model diagnostics
+
+</details>
 
 ### Valence
 
-Valence is a private coordination system for discovering, evaluating, and routing opportunities through real-world networks.
+`PRIVATE DEVELOPMENT` · `NETWORKS` · `COORDINATION`
 
-It focuses on:
+Valence is a privacy-first coordination and path-intelligence system for routing people, capital, projects, and opportunities through real-world networks.
 
-* Persistent user and network state
-* Signal extraction from messy human context
-* Privacy-first matching and consent-based identity reveal
-* Path intelligence for people, capital, projects, and opportunities
+The right person, resource, or opportunity often already exists somewhere in the network. The harder problem is preserving enough context to recognize it, representing intent without exposing more than necessary, and finding a trusted path between the relevant parties.
 
-Details are intentionally limited publicly.
+<details>
+<summary><strong>System direction</strong></summary>
 
-### XG Engine / Market Intelligence Systems
+<br>
 
-Internal systems for market analysis, cycle awareness, and decision support.
+- Persistent context and relationship-aware matching
+- Consent-based identity reveal
+- Privacy-preserving representations of intent
+- Path discovery across people and organizations
+- Human review for consequential decisions
 
-Current areas include:
+</details>
 
-* Price and volume signal research
-* Custom market indicators
-* Macro and liquidity-aware analysis
-* Forecasting workflows for investors, operators, and internal strategy
+### Kairos Dynamics
 
-### Deal Flow and Capital Matching Tools
+`FORMATION` · `DECISION INTELLIGENCE` · `PRODUCT DIRECTION`
 
-Automation and data systems for improving how opportunities move from raw conversation, email, or relationship context into structured, actionable deal flow.
+Kairos Dynamics is the emerging product direction for turning research developed through XG Capital Strategies into deployable decision systems. The work is forming around market intelligence, strategic research, agentic workflows, private deployment, organizational memory, capital and opportunity intelligence, and human-controlled AI. It is an active direction—not a claim of commercial proof.
 
-This includes work around:
+### Berean
 
-* Intake and qualification
-* Capital/project matching
-* Relationship-aware opportunity routing
-* Lightweight CRM and context-graph workflows
+`DEPLOYED` · `REASONING SYSTEMS`
 
-### Algorithmic Trading Research
+Berean is an evidence-grounded reasoning system designed to keep source material, interpretation, and conclusion visibly separated. It began as a Scripture-first research tool, but the underlying architecture applies to other domains where claims must be tested against an authoritative corpus.
 
-Private research and prototypes around systematic trading, market pressure, and execution logic.
+### Tikkara
 
-Areas of interest include:
+`FOUNDATIONAL R&D` · `PROCEDURAL SYSTEMS`
 
-* Price/volume-derived signals
-* On-chain and exchange-based trading systems
-* Risk logic and position management
-* Human-readable strategy diagnostics
+Tikkara is a long-horizon experiment in persistent procedural worlds, AI-driven characters, generated assets, editable simulation, and emergent narrative. It connects naturally to the rest of the work: markets, organizations, and simulated worlds all depend on state, memory, incentives, coordination, and change over time.
 
-### Media, Narrative, and Information Systems
+## Current Investigations
 
-Exploratory work around analyzing narrative formation, public information flows, and the gap between what is visible and what is structurally important.
+- `01` Full-field market-state prediction from the complete heatmap edge
+- `02` Persistent memory and coordination across agent systems
+- `03` Decision intelligence for capital and opportunity allocation
+- `04` Privacy-preserving representations of human intent
+- `05` Editable procedural worlds with durable state
+- `06` Systems that grow more capable without becoming less understandable
 
----
+## Engineering Profile
 
-## Technical Orientation
+- **Systems:** Python, TypeScript, APIs, data pipelines, state and memory systems, event-driven services
+- **AI and modeling:** Applied machine learning, computer vision, time-series research, agent orchestration, retrieval systems, local model inference
+- **Infrastructure:** Docker, CI/CD, local GPU compute, self-hosted environments, cloud and edge deployment
+- **Interfaces:** Research dashboards, market visualizations, intelligence panels, operator-focused interfaces
 
-I operate across:
+I’m less interested in collecting technologies than in choosing an architecture that fits the problem and remains legible under pressure.
 
-Backend:
+## Operating Principles
 
-* API architecture
-* Data pipelines
-* Distributed systems
-* State management
+- `01` Preserve context.
+- `02` Treat uncertainty honestly.
+- `03` Keep humans involved where judgment matters.
+- `04` Prefer useful signal over output volume.
+- `05` Build systems that can still be understood.
+- `06` Test ideas against reality, not presentation quality.
 
-Frontend:
+## Public Activity
 
-* Interfaces for decision systems
-* Dashboards and research workflows
-* Information clarity over visual noise
+Most active development remains in private repositories because it includes proprietary research, sensitive context, or early-stage product architecture. Public work is released selectively when it can stand on its own without exposing the parts that should remain private.
 
-Infrastructure:
-
-* Containerized deployments
-* Self-hosted environments
-* CI/CD pipelines
-* Local and cloud model orchestration
-
-AI / Modeling:
-
-* Applied machine learning
-* Signal extraction from noisy systems
-* Hybrid local and external model architectures
-* Human-in-the-loop intelligence workflows
-
----
-
-## Approach
-
-Most systems fail because they optimize for visibility instead of signal.
-
-I focus on:
-
-* Extracting meaningful signal from imperfect data
-* Preserving context over time
-* Turning unstructured inputs into structured decision paths
-* Designing systems that improve decision quality, not just output volume
-
----
-
-## Select Activity
-
-Most active development is in private repositories under XG Capital Strategies or related accounts.
-
-Public work may be released selectively when it does not compromise system integrity, client confidentiality, or strategic positioning.
-
----
-
-## Collaboration
-
-Open to conversations with:
-
-* Operators building real businesses
-* Investors thinking long-term
-* Engineers interested in complex systems
-* Researchers working on intelligence, markets, or coordination
-
----
-
-## Account Note
-
-Some public or experimental work may also appear under [@alexander-the-gray](https://github.com/alexander-the-gray).
-
-Both accounts are operated by the same person.
-
----
+Some public and experimental work also appears under [@alexander-the-gray](https://github.com/alexander-the-gray). Both GitHub accounts are operated by me.
 
 ## Contact
 
-xander@xgcapitalstrategies.com
+I’m open to conversations with engineers, researchers, investors, and founders working on difficult problems involving markets, AI, capital, networks, or complex systems.
+
+- [XG Capital Strategies](https://xgcapitalstrategies.com)
+- [XG Capital Insights](https://xgcapitalstrategies.com/xg-capital-insights)
+- [xander@xgcapitalstrategies.com](mailto:xander@xgcapitalstrategies.com)
