@@ -4,23 +4,25 @@
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .active-marker, .status-light { animation: markerBreath 12s ease-in-out infinite; }
-    .light-02 { animation-delay: -2s; }
-    .light-03 { animation-delay: -4s; }
-    .light-04 { animation-delay: -6s; }
-    .light-05 { animation-delay: -8s; }
-    .row-activity { opacity: 0; animation: rowToggle 25s steps(1, end) infinite; }
-    .row-02 { animation-delay: 5s; }
-    .row-03 { animation-delay: 10s; }
-    .row-04 { animation-delay: 15s; }
-    .row-05 { animation-delay: 20s; }
-    .circuit-pulse { opacity: .1; animation: circuitPulse 14s ease-in-out infinite; }
-    .circuit-02 { animation-delay: -7s; }
-    @keyframes markerBreath { 0%, 100% { opacity: .55; } 50% { opacity: .95; } }
-    @keyframes rowToggle { 0%, 12% { opacity: .075; } 13%, 100% { opacity: 0; } }
-    @keyframes circuitPulse { 0%, 100% { opacity: .1; } 24% { opacity: .72; } 44% { opacity: .1; } }
+    .power-source { animation: sourceBreath 10s ease-in-out infinite; }
+    .power-trunk, .power-lead { opacity: .08; animation: trunkPower 25s ease-in-out infinite; }
+    .power-lead { animation-name: leadPower; }
+    .power-port, .status-light, .row-terminal { opacity: .28; animation: terminalPower 25s steps(1, end) infinite; }
+    .row-activity { opacity: 0; animation: rowPower 25s steps(1, end) infinite; }
+    .power-02, .row-02, .light-02 { animation-delay: -5s; }
+    .power-03, .row-03, .light-03 { animation-delay: -10s; }
+    .power-04, .row-04, .light-04 { animation-delay: -15s; }
+    .power-05, .row-05, .light-05 { animation-delay: -20s; }
+    @keyframes sourceBreath { 0%, 100% { opacity: .5; } 50% { opacity: .95; } }
+    @keyframes trunkPower { 0%, 2%, 18%, 100% { opacity: .08; } 4%, 13% { opacity: .92; } }
+    @keyframes leadPower { 0%, 4%, 19%, 100% { opacity: .08; } 6%, 15% { opacity: 1; } }
+    @keyframes terminalPower { 0%, 6%, 20%, 100% { opacity: .28; } 8%, 18% { opacity: 1; } }
+    @keyframes rowPower { 0%, 8%, 20%, 100% { opacity: 0; } 9%, 19% { opacity: .075; } }
     @media (prefers-reduced-motion: reduce) {
-      .active-marker, .status-light, .row-activity, .circuit-pulse { animation: none !important; }
+      .power-source, .power-trunk, .power-lead, .power-port, .status-light, .row-terminal, .row-activity { animation: none !important; }
+      .power-trunk, .power-lead { opacity: .3; }
+      .power-port, .status-light, .row-terminal { opacity: .72; }
+      .row-activity { opacity: .025; }
     }
   </style>
 
@@ -49,13 +51,23 @@
     <text x="410" y="221" fill="#99a5af" font-size="12" letter-spacing="1.2">STATE</text>
     <text x="672" y="221" fill="#99a5af" font-size="12" letter-spacing="1.2">FUNCTION</text>
     <path d="M34 214V584M34 279H48M34 349H48M34 419H48M34 489H48M34 559H48M966 214V584M952 279H966M952 349H966M952 419H966M952 489H966M952 559H966" fill="none" stroke="#26323c"/>
-    <path class="circuit-pulse circuit-01" d="M34 214V419M34 279H48M34 349H48M34 419H48" fill="none" stroke="#72a8b8"/>
-    <path class="circuit-pulse circuit-02" d="M966 349V584M952 349H966M952 419H966M952 489H966M952 559H966" fill="none" stroke="#b8a06a"/>
+    <rect class="power-source" x="30" y="210" width="8" height="8" fill="#72a8b8"/>
+    <rect class="power-source" x="962" y="580" width="8" height="8" fill="#b8a06a"/>
+    <path class="power-trunk power-01" d="M34 214V279M966 584V279" fill="none" stroke="#75a98d" stroke-width="2"/><path class="power-lead power-01" d="M34 279H48M966 279H952" fill="none" stroke="#75a98d" stroke-width="2"/>
+    <path class="power-trunk power-02" d="M34 214V349M966 584V349" fill="none" stroke="#72a8b8" stroke-width="2"/><path class="power-lead power-02" d="M34 349H48M966 349H952" fill="none" stroke="#72a8b8" stroke-width="2"/>
+    <path class="power-trunk power-03" d="M34 214V419M966 584V419" fill="none" stroke="#b8a06a" stroke-width="2"/><path class="power-lead power-03" d="M34 419H48M966 419H952" fill="none" stroke="#b8a06a" stroke-width="2"/>
+    <path class="power-trunk power-04" d="M34 214V489M966 584V489" fill="none" stroke="#72a8b8" stroke-width="2"/><path class="power-lead power-04" d="M34 489H48M966 489H952" fill="none" stroke="#72a8b8" stroke-width="2"/>
+    <path class="power-trunk power-05" d="M34 214V559M966 584V559" fill="none" stroke="#72a8b8" stroke-width="2"/><path class="power-lead power-05" d="M34 559H48M966 559H952" fill="none" stroke="#72a8b8" stroke-width="2"/>
+    <rect class="power-port power-01" x="44" y="275" width="8" height="8" fill="#75a98d"/><rect class="power-port power-01" x="948" y="275" width="8" height="8" fill="#75a98d"/>
+    <rect class="power-port power-02" x="44" y="345" width="8" height="8" fill="#72a8b8"/><rect class="power-port power-02" x="948" y="345" width="8" height="8" fill="#72a8b8"/>
+    <rect class="power-port power-03" x="44" y="415" width="8" height="8" fill="#b8a06a"/><rect class="power-port power-03" x="948" y="415" width="8" height="8" fill="#b8a06a"/>
+    <rect class="power-port power-04" x="44" y="485" width="8" height="8" fill="#72a8b8"/><rect class="power-port power-04" x="948" y="485" width="8" height="8" fill="#72a8b8"/>
+    <rect class="power-port power-05" x="44" y="555" width="8" height="8" fill="#72a8b8"/><rect class="power-port power-05" x="948" y="555" width="8" height="8" fill="#72a8b8"/>
 
     <g transform="translate(0 246)">
       <rect x="48" y="0" width="904" height="66" fill="#0d141a" stroke="#26323c"/>
       <rect class="row-activity row-01" x="53" y="1" width="898" height="64" fill="#72a8b8"/>
-      <rect class="active-marker" x="48" y="0" width="5" height="66" fill="#75a98d"/>
+      <rect class="row-terminal light-01" x="48" y="0" width="5" height="66" fill="#75a98d"/>
       <text x="72" y="25" fill="#99a5af" font-size="11">SYS-01 / MARKET RESEARCH</text>
       <text x="72" y="48" fill="#e8edf2" font-size="17">HEATMAP STRATEGY LAB</text>
       <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#111a22" stroke="#587765"/>
@@ -67,7 +79,7 @@
     <g transform="translate(0 316)">
       <rect x="48" y="0" width="904" height="66" fill="#0d141a" stroke="#26323c"/>
       <rect class="row-activity row-02" x="53" y="1" width="898" height="64" fill="#72a8b8"/>
-      <rect x="48" y="0" width="5" height="66" fill="#53636f"/>
+      <rect class="row-terminal light-02" x="48" y="0" width="5" height="66" fill="#53636f"/>
       <text x="72" y="25" fill="#99a5af" font-size="11">SYS-02 / NETWORKS</text>
       <text x="72" y="48" fill="#e8edf2" font-size="17">VALENCE</text>
       <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#111a22" stroke="#46535e"/>
@@ -79,7 +91,7 @@
     <g transform="translate(0 386)">
       <rect x="48" y="0" width="904" height="66" fill="#0d141a" stroke="#26323c"/>
       <rect class="row-activity row-03" x="53" y="1" width="898" height="64" fill="#b8a06a"/>
-      <rect x="48" y="0" width="5" height="66" fill="#8c794b"/>
+      <rect class="row-terminal light-03" x="48" y="0" width="5" height="66" fill="#8c794b"/>
       <text x="72" y="25" fill="#99a5af" font-size="11">SYS-03 / PRODUCT FORMATION</text>
       <text x="72" y="48" fill="#e8edf2" font-size="17">KAIROS DYNAMICS</text>
       <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#111a22" stroke="#685d42"/>
@@ -91,7 +103,7 @@
     <g transform="translate(0 456)">
       <rect x="48" y="0" width="904" height="66" fill="#0d141a" stroke="#26323c"/>
       <rect class="row-activity row-04" x="53" y="1" width="898" height="64" fill="#72a8b8"/>
-      <rect x="48" y="0" width="5" height="66" fill="#53636f"/>
+      <rect class="row-terminal light-04" x="48" y="0" width="5" height="66" fill="#53636f"/>
       <text x="72" y="25" fill="#99a5af" font-size="11">SYS-04 / REASONING</text>
       <text x="72" y="48" fill="#e8edf2" font-size="17">BEREAN</text>
       <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#111a22" stroke="#46535e"/>
@@ -103,7 +115,7 @@
     <g transform="translate(0 526)">
       <rect x="48" y="0" width="904" height="66" fill="#0d141a" stroke="#26323c"/>
       <rect class="row-activity row-05" x="53" y="1" width="898" height="64" fill="#72a8b8"/>
-      <rect x="48" y="0" width="5" height="66" fill="#53636f"/>
+      <rect class="row-terminal light-05" x="48" y="0" width="5" height="66" fill="#53636f"/>
       <text x="72" y="25" fill="#99a5af" font-size="11">SYS-05 / PROCEDURAL R&amp;D</text>
       <text x="72" y="48" fill="#e8edf2" font-size="17">TIKKARA</text>
       <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#111a22" stroke="#46535e"/>

@@ -1,17 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
   <title id="title">Xander Gray public operating profile</title>
-  <desc id="desc">A hard-edged institutional header identifying Xander Gray as founder and CEO, systems architect, and quantitative market researcher. A compact line plot represents signal research.</desc>
+  <desc id="desc">A hard-edged institutional header identifying Xander Gray as founder and CEO, systems architect, and quantitative market researcher. Three compact traces visualize a cached NOAA solar-wind snapshot captured on August 4, 2026.</desc>
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
     .state-marker { animation: markerBreath 12s ease-in-out infinite; }
-    .circuit-segment { opacity: .12; animation: circuitPulse 15s ease-in-out infinite; }
-    .circuit-b { animation-delay: -5s; }
-    .circuit-c { animation-delay: -10s; }
+    .telemetry-focus { opacity: .16; animation: telemetryFocus 12s ease-in-out infinite; }
+    .sample-node { opacity: .34; animation: nodeRead 12s steps(1, end) infinite; }
+    .channel-b { animation-delay: -4s; }
+    .channel-c { animation-delay: -8s; }
     @keyframes markerBreath { 0%, 100% { opacity: .58; } 50% { opacity: .96; } }
-    @keyframes circuitPulse { 0%, 100% { opacity: .12; } 18% { opacity: .88; } 36% { opacity: .12; } }
+    @keyframes telemetryFocus { 0%, 30%, 100% { opacity: .16; } 8%, 24% { opacity: 1; } }
+    @keyframes nodeRead { 0%, 7%, 26%, 100% { opacity: .34; } 8%, 25% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) {
-      .state-marker, .circuit-segment { animation: none !important; }
+      .state-marker, .telemetry-focus, .sample-node { animation: none !important; }
+      .telemetry-focus { opacity: .52; }
+      .sample-node { opacity: .8; }
     }
   </style>
 
@@ -34,18 +38,25 @@
   <text class="mono" x="48" y="269" fill="#99a5af" font-size="12">SILICON VALLEY, CA  /  PUBLIC RESEARCH SURFACE</text>
 
   <g class="mono">
-    <text x="748" y="94" fill="#99a5af" font-size="12" letter-spacing="1.2">SIGNAL FIELD / COMPOSITE</text>
+    <text x="748" y="94" fill="#99a5af" font-size="12" letter-spacing="1.2">SOLAR WIND / NOAA RTSW</text>
     <polygon points="748,107 944,107 952,115 952,203 756,203 748,195" fill="#0a1015" stroke="#46535e"/>
-    <path d="M748 131H952M748 155H952M748 179H952M789 107V203M830 107V203M871 107V203M912 107V203" stroke="#1d2933"/>
-    <path d="M756 180L780 169L804 174L828 145L852 152L876 127L900 136L924 118L944 123" fill="none" stroke="#72a8b8" stroke-width="2"/>
-    <path class="circuit-segment circuit-a" d="M756 180L780 169L804 174" fill="none" stroke="#b8a06a" stroke-width="2"/>
-    <path class="circuit-segment circuit-b" d="M804 174L828 145L852 152L876 127" fill="none" stroke="#b8a06a" stroke-width="2"/>
-    <path class="circuit-segment circuit-c" d="M876 127L900 136L924 118L944 123" fill="none" stroke="#b8a06a" stroke-width="2"/>
-    <rect class="circuit-segment circuit-a" x="801" y="171" width="6" height="6" fill="#b8a06a"/>
-    <rect class="circuit-segment circuit-b" x="873" y="124" width="6" height="6" fill="#b8a06a"/>
-    <rect class="circuit-segment circuit-c" x="921" y="115" width="6" height="6" fill="#75a98d"/>
-    <text x="748" y="229" fill="#99a5af" font-size="12">MODE / RESEARCH</text>
-    <text x="748" y="252" fill="#99a5af" font-size="12">CONTROL / HUMAN</text>
-    <text x="902" y="252" fill="#8db89f" font-size="12">ACTIVE</text>
+    <path d="M772 123V194M814 123V194M856 123V194M898 123V194M940 123V194M772 146H948M772 169H948" stroke="#1d2933"/>
+    <text x="756" y="137" fill="#72a8b8" font-size="9">V</text>
+    <text x="756" y="160" fill="#b8a06a" font-size="9">N</text>
+    <text x="756" y="183" fill="#b97762" font-size="9">Bz</text>
+    <polyline points="776.0,141.2 785.3,142.6 794.7,141.1 804.0,145.2 813.3,141.6 822.7,127.8 832.0,129.2 841.3,131.5 850.7,142.4 860.0,143.2 869.3,139.6 878.7,137.4 888.0,140.6 897.3,140.2 906.7,136.8 916.0,131.9 925.3,142.5 934.7,140.0 944.0,140.5" fill="none" stroke="#72a8b8" stroke-width="1.5"/>
+    <polyline class="telemetry-focus channel-a" points="776.0,141.2 785.3,142.6 794.7,141.1 804.0,145.2 813.3,141.6 822.7,127.8 832.0,129.2 841.3,131.5 850.7,142.4 860.0,143.2 869.3,139.6 878.7,137.4 888.0,140.6 897.3,140.2 906.7,136.8 916.0,131.9 925.3,142.5 934.7,140.0 944.0,140.5" fill="none" stroke="#d7f2f7" stroke-width="2.5"/>
+    <polyline points="776.0,162.2 785.3,163.6 794.7,165.7 804.0,166.5 813.3,157.9 822.7,149.4 832.0,151.6 841.3,152.4 850.7,158.1 860.0,163.8 869.3,160.4 878.7,163.3 888.0,164.9 897.3,164.6 906.7,166.9 916.0,164.8 925.3,165.5 934.7,163.8 944.0,167.9" fill="none" stroke="#b8a06a" stroke-width="1.5"/>
+    <polyline class="telemetry-focus channel-b" points="776.0,162.2 785.3,163.6 794.7,165.7 804.0,166.5 813.3,157.9 822.7,149.4 832.0,151.6 841.3,152.4 850.7,158.1 860.0,163.8 869.3,160.4 878.7,163.3 888.0,164.9 897.3,164.6 906.7,166.9 916.0,164.8 925.3,165.5 934.7,163.8 944.0,167.9" fill="none" stroke="#f1d899" stroke-width="2.5"/>
+    <polyline points="776.0,187.2 785.3,186.6 794.7,188.0 804.0,187.4 813.3,187.6 822.7,183.4 832.0,171.8 841.3,172.4 850.7,175.3 860.0,189.7 869.3,189.0 878.7,188.7 888.0,187.6 897.3,184.9 906.7,184.7 916.0,184.8 925.3,180.4 934.7,179.5 944.0,177.3" fill="none" stroke="#b97762" stroke-width="1.5"/>
+    <polyline class="telemetry-focus channel-c" points="776.0,187.2 785.3,186.6 794.7,188.0 804.0,187.4 813.3,187.6 822.7,183.4 832.0,171.8 841.3,172.4 850.7,175.3 860.0,189.7 869.3,189.0 878.7,188.7 888.0,187.6 897.3,184.9 906.7,184.7 916.0,184.8 925.3,180.4 934.7,179.5 944.0,177.3" fill="none" stroke="#ffd0c2" stroke-width="2.5"/>
+    <rect class="sample-node channel-a" x="940" y="136.5" width="7" height="7" fill="#72a8b8"/>
+    <rect class="sample-node channel-b" x="940" y="164" width="7" height="7" fill="#b8a06a"/>
+    <rect class="sample-node channel-c" x="940" y="173.5" width="7" height="7" fill="#b97762"/>
+    <text x="748" y="223" fill="#99a5af" font-size="11">V / <tspan fill="#c6ced5">363.5 KM/S</tspan></text>
+    <text x="858" y="223" fill="#99a5af" font-size="11">N / <tspan fill="#c6ced5">6.32 P/CC</tspan></text>
+    <text x="748" y="243" fill="#99a5af" font-size="11">Bz / <tspan fill="#c6ced5">-4.03 NT</tspan></text>
+    <text x="858" y="243" fill="#99a5af" font-size="11">Kp / <tspan fill="#c6ced5">3.00</tspan></text>
+    <text x="748" y="266" fill="#8db89f" font-size="9.5">NOAA SWPC / CACHED 2026-08-04 07:50Z</text>
   </g>
 </svg>
