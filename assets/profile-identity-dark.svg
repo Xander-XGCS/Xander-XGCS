@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="title desc">
+  <title id="title">Xander Gray / public operating profile</title>
+  <desc id="desc">Xander Gray, founder and CEO, systems architect, and quantitative market researcher. Dark presentation.</desc>
+  <rect width="1000" height="180" fill="#080c10"/>
+  <path d="M18 28L28 18H972L982 28V152L972 162H28L18 152Z" fill="#0d1319" stroke="#34414d"/>
+  <path d="M18 18H34M18 18V34M982 18H966M982 18V34M18 162H34M18 162V146M982 162H966M982 162V146" stroke="#b8a06a" stroke-width="2"/>
+  <g font-family="Consolas,monospace" fill="#99a5af">
+    <text x="42" y="47" font-size="12" letter-spacing="1.6">PUBLIC OPERATING PROFILE / XGCS</text>
+    <text x="958" y="47" font-size="12" text-anchor="end" fill="#b4db9a">EARTH SYSTEMS / ELF</text>
+    <text x="44" y="132" font-size="14">FOUNDER &amp; CEO / SYSTEMS ARCHITECT / QUANTITATIVE MARKET RESEARCH</text>
+  </g>
+  <text x="42" y="99" fill="#e8edf2" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="44" font-weight="700">XANDER GRAY</text>
+</svg>

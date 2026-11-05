@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "published_station_spectrogram",
+  "live": false,
+  "station": "SOUSY Arctic facility, Svalbard",
+  "latitude": 78.15,
+  "longitude": 16.05,
+  "observation_start": "2020-12-04T00:00:00Z",
+  "observation_end": "2020-12-04T15:37:51Z",
+  "frequency_range_hz": [
+    0,
+    30
+  ],
+  "channels": [
+    "North–South magnetic",
+    "East–West magnetic"
+  ],
+  "scale": "Published logarithmic PSD; original colour bars and values retained. Absolute PSD units are not established here.",
+  "source_url": "https://zenodo.org/records/5919944",
+  "doi": "10.5281/zenodo.5919944",
+  "source_title": "Spectrograms and frequencies of the first mode of Schumann Resonance according to multi-position  monitoring parformed at the Ukrainian Antarctic Station (2002-2020) and at the Arctic SOUSY facility (2013-2020)",
+  "attribution": "Koloskov Oleksandr; Nickolaenko Alexander; Yampolsky Yuri; Budanov Oleg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "archive_url": "https://zenodo.org/api/records/5919944/files/Sou_2020.zip/content",
+  "archive_member": "12/s20201204000000.png",
+  "archive_published_checksum": "md5:b98c3ca705182e47c07b0874c4c2b886",
+  "archive_sha256": "1eb54ba02398858e941dfb25a46cedf6ef2fc00943e83f71d653183b92963397",
+  "source_png_sha256": "2b7fd3fc27f0d335bb52661f4f66eb6e273ca8fc83a2cdae108508561e7dffd0",
+  "presentation": "SVG dark frame and margin-only colour transform; original PNG, heatmap pixels and colour bars are unchanged.",
+  "selection": "An explicitly dated usable observation from the archive. Later source days include visually flat frames; no claim of current/live conditions.",
+  "numeric_use": "Display asset only; no pixels converted into calibrated research features."
+}
