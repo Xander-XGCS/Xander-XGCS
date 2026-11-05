@@ -1,8 +1,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/command-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/command-header-light.svg">
-  <img alt="Xander Gray — founder and CEO, systems architect, and quantitative market researcher, with cached NOAA solar-wind telemetry" src="assets/command-header-light.svg" width="100%">
+  <img alt="Xander Gray — founder and CEO, systems architect, and quantitative market researcher, with measured Schumann resonance mode frequencies from Nagycenk on 20 February 2023" src="assets/command-header-light.svg" width="100%">
 </picture>
+
+<sub>Header measurements: Nagycenk Ez channel, modes 1–3 in Hz, 20 February 2023. Historical observations · <a href="https://zenodo.org/records/13220677">Sátori, Bozóki &amp; Prácser / CC BY 4.0</a> · <a href="data/schumann-snapshot.json">Numeric snapshot and provenance</a>.</sub>
 
 <p align="center">
   <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
