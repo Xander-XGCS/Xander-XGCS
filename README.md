@@ -1,4 +1,16 @@
-<img alt="Xander Gray, founder and CEO, with a compact archived SOUSY Schumann resonance spectrogram inset to the right of his name" src="assets/profile-identity-dark.svg" width="100%">
+<table>
+  <tr>
+    <td width="76%" valign="middle">
+      <img src="assets/profile-identity-dark.svg" alt="Xander Gray, founder and CEO, systems architect and quantitative market researcher" width="100%">
+    </td>
+    <td width="24%" valign="middle" align="center">
+      <a href="https://geomag.bgs.ac.uk/research/inductioncoils.html" title="Latest daily Eskdalemuir Schumann spectrogram from the British Geological Survey">
+        <img src="https://geomag.bgs.ac.uk/images/currentSpectrogramCH1.jpg" width="100%" alt="British Geological Survey Eskdalemuir North-coil measured ELF spectrogram, typically the previous UTC day; date shown in the image">
+      </a>
+      <sub>BGS / ESKDALEMUIR · DAILY DATA</sub>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
@@ -197,6 +209,6 @@ I’m open to conversations with engineers, researchers, investors, and founders
 <details>
 <summary><sub>Scientific image source and attribution</sub></summary>
 
-<sub>Header inset: archived SOUSY, Svalbard spectrogram, 4 December 2020, 00:00–15:37:51 UTC; not live data. <a href="https://zenodo.org/records/5919944">Koloskov et al., CC BY 4.0</a>. Original measured colours and scale retained; frame and margins adapted by XGCS. <a href="assets/schumann-spectrogram-dark.svg">Full spectrogram</a> · <a href="assets/schumann-spectrogram-source.png">Original figure</a> · <a href="assets/schumann-spectrogram.json">Provenance</a>.</sub>
+<sub>Daily Schumann-resonance spectrogram: <a href="https://geomag.bgs.ac.uk/research/inductioncoils.html">British Geological Survey (BGS), Eskdalemuir Observatory</a>, North-pointing induction coil, © UKRI 2026. The original chart is linked directly from <a href="https://geomag.bgs.ac.uk/images/currentSpectrogramCH1.jpg">BGS's published daily image</a> without alteration. BGS publishes the previous day's measurements. GitHub may cache the image; check the observation date printed within the chart. This is a single-station observation, not a global scalar index or a continuous real-time reading. Source credit does not imply BGS endorsement.</sub>
 
 </details>
