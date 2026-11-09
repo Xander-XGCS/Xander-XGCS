@@ -113,6 +113,8 @@ def draw_banner(chart, state, published=None):
     indicator = {"CURRENT":"#75a98d","DELAYED":"#b8a06a","UNAVAILABLE":"#b88a8a"}[state]
     d.rectangle((754,177,761,186),fill=indicator)
     d.text((768,175),state+" / DAILY",font=font(10,True),fill=indicator)
+    publication = "FILE MOD "+published.strftime("%Y-%m-%d UTC") if published else "FILE TIME UNKNOWN"
+    d.text((753,189),publication,font=font(8),fill="#99a5af")
     return im
 
 def age_hours(published, now):
