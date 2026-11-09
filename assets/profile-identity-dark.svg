@@ -1,13 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="740" height="215" viewBox="0 0 740 215" role="img" aria-labelledby="title desc">
-  <title id="title">Xander Gray / public operating profile</title>
-  <desc id="desc">Xander Gray, founder and CEO of XG Capital Strategies; systems architect and quantitative market researcher.</desc>
-  <rect width="740" height="215" fill="#080c10"/>
-  <path d="M18 28L28 18H712L722 28V187L712 197H28L18 187Z" fill="#0d1319" stroke="#34414d"/>
-  <path d="M18 18H34M18 18V34M722 18H706M722 18V34M18 197H34M18 197V181M722 197H706M722 197V181" fill="none" stroke="#b8a06a" stroke-width="2"/>
-  <g font-family="Consolas,monospace">
-    <text x="42" y="47" fill="#99a5af" font-size="12" letter-spacing="1.4">PUBLIC OPERATING PROFILE / XGCS</text>
-    <text x="42" y="142" fill="#99a5af" font-size="14">FOUNDER &amp; CEO / SYSTEMS ARCHITECT</text>
-    <text x="42" y="164" fill="#99a5af" font-size="14">QUANTITATIVE MARKET RESEARCH</text>
-  </g>
-  <text x="42" y="105" fill="#e8edf2" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="44" font-weight="700">XANDER GRAY</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="215" viewBox="0 0 1000 215" role="img" aria-labelledby="title desc">
+<title id="title">Xander Gray / public operating profile</title>
+<desc id="desc">Xander Gray, founder and CEO of XG Capital Strategies. Systems architect, quantitative market researcher, and agentic engineering founder.</desc>
+<rect width="1000" height="215" fill="#080c10"/>
+<path d="M18 28L28 18H972L982 28V187L972 197H28L18 187Z" fill="#0d1319" stroke="#34414d"/>
+<path d="M18 18H34M18 18V34M982 18H966M982 18V34M18 197H34M18 197V181M982 197H966M982 197V181" fill="none" stroke="#b8a06a" stroke-width="2"/>
+<path d="M48 66H952" stroke="#26323c" fill="none"/>
+<g font-family="Consolas, Menlo, monospace">
+  <text x="48" y="49" fill="#99a5af" font-size="13" letter-spacing="1.4">PUBLIC OPERATING PROFILE / XGCS</text>
+  <text x="50" y="148" fill="#99a5af" font-size="14">FOUNDER &amp; CEO / SYSTEMS ARCHITECT</text>
+  <text x="50" y="170" fill="#99a5af" font-size="14">QUANTITATIVE RESEARCH / AGENTIC ENGINEERING</text>
+  <text x="948" y="49" text-anchor="end" fill="#b8a06a" font-size="12">HUMAN + MACHINE</text>
+</g>
+<text x="48" y="120" fill="#e8edf2" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="45" font-weight="700">XANDER GRAY</text>
+<g opacity=".55" stroke="#72a8b8" fill="none">
+  <path d="M760 99H948M760 121H948M760 143H948" stroke="#34414d"/>
+  <path d="M760 143H788L806 116L828 136L849 93L873 119H897L917 103L948 103" stroke-width="2"/>
+  <path d="M760 155H948" stroke="#34414d"/>
+</g>
 </svg>
