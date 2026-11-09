@@ -102,7 +102,7 @@ def draw_banner(chart, state, published=None):
     d.text((44,135),"FOUNDER & CEO / SYSTEMS ARCHITECT",font=font(13),fill="#99a5af")
     d.text((44,155),"QUANTITATIVE MARKET RESEARCH",font=font(13),fill="#99a5af")
     d.rectangle((744,22,973,198),fill="#0b1016",outline="#34414d",width=1)
-    d.text((753,27),"SCHUMANN / ESKDALMUIR",font=font(10,True),fill="#b8a06a")
+    d.text((753,27),"SCHUMANN / ESKDALEMUIR",font=font(10,True),fill="#b8a06a")
     if chart is not None:
         # Preserve the upstream plot/date axes; never draw invented data.
         thumb = chart.copy()
