@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="98" viewBox="0 0 1000 98" role="img" aria-labelledby="cardTitle cardDesc">
+<title id="cardTitle">Heatmap Strategy Lab</title>
+<desc id="cardDesc">Heatmap Strategy Lab compact expandable system card; use the adjacent disclosure control to reveal the brief.</desc>
+<style>
+  .light { display: none; }
+  @media (prefers-color-scheme: light) {
+    .dark { display: none; }
+    .light { display: inline; }
+  }
+</style>
+<g class="dark"><g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><rect width="1000" height="98" fill="#080c10"/><path d="M18 28L28 18H972L982 28V70L972 80H28L18 70Z" fill="#0d141a" stroke="#46535e"/><path d="M18 18H34M18 18V34M982 18H966M982 18V34M18 80H34M18 80V64M982 80H966M982 80V64" stroke="#b8a06a" stroke-width="2" fill="none"/><rect x="22" y="22" width="6" height="57" fill="#75a98d"/><path d="M680 28H941V71L932 80H680Z" fill="#111a22" stroke="#46535e"/><text x="47" y="42" fill="#99a5af" font-size="12" font-weight="400" letter-spacing=".8">SYS-01 / MARKET RESEARCH</text><text x="47" y="71" fill="#e8edf2" font-size="23" font-weight="700" >HEATMAP STRATEGY LAB</text><text x="820" y="54" fill="#75a98d" font-size="12" font-weight="700" text-anchor="middle">ACTIVE RESEARCH</text><text x="812" y="78" fill="#99a5af" font-size="10" font-weight="400" text-anchor="middle">CLICK TO EXPAND / DETAILS</text></g></g>
+<g class="light"><g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><rect width="1000" height="98" fill="#eef0f2"/><path d="M18 28L28 18H972L982 28V70L972 80H28L18 70Z" fill="#f8f9fa" stroke="#7f8b95"/><path d="M18 18H34M18 18V34M982 18H966M982 18V34M18 80H34M18 80V64M982 80H966M982 80V64" stroke="#6f5c32" stroke-width="2" fill="none"/><rect x="22" y="22" width="6" height="57" fill="#2f6e52"/><path d="M680 28H941V71L932 80H680Z" fill="#f1f3f5" stroke="#7f8b95"/><text x="47" y="42" fill="#4c5a66" font-size="12" font-weight="400" letter-spacing=".8">SYS-01 / MARKET RESEARCH</text><text x="47" y="71" fill="#18222b" font-size="23" font-weight="700" >HEATMAP STRATEGY LAB</text><text x="820" y="54" fill="#2f6e52" font-size="12" font-weight="700" text-anchor="middle">ACTIVE RESEARCH</text><text x="812" y="78" fill="#4c5a66" font-size="10" font-weight="400" text-anchor="middle">CLICK TO EXPAND / DETAILS</text></g></g>
+</svg>
