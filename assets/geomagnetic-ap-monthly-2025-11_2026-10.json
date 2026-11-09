@@ -1,0 +1,67 @@
+{
+  "title": "Annual geomagnetic history: monthly mean planetary Ap index",
+  "time_span_utc": {
+    "from": "2025-11-01",
+    "through": "2026-10-31"
+  },
+  "period_count": 12,
+  "upstream": "GFZ Helmholtz Centre for Geosciences, Adolf Schmidt Observatory, Niemegk",
+  "publication": "Matzka, J., Bronkalla, O., Tornow, K., Elger, K., Stolle, C. (2021). Geomagnetic Kp index. GFZ Data Services. doi:10.5880/Kp.0001",
+  "url": "https://kp.gfz.de/en/about-kp",
+  "secondary_compilation": "Jan Alvestad, Solar Terrestrial Activity Report, monthly Average ap data based on GFZ Potsdam WDC, viewed 2026-11-08",
+  "secondary_url": "https://solen.info/solar/index.html",
+  "license": "GFZ geomagnetic indices CC BY 4.0; attribute GFZ and Matzka et al. (2021)",
+  "metric": "Mean of planetary daily Ap over each complete UTC calendar month, as reported by secondary source. Not Kp and not auroral-oval measurements.",
+  "quality_notes": "Values transcribed from published monthly table. October 2026 reported with one decimal place; latest values may be preliminary/quicklook or revised. September 2026 shown as 7.54.",
+  "animation_method": "A single image frame per monthly value, each displayed 520 ms. Polar geography rendered from a North-pole orthographic map. Decorative halo brightness, thickness, and amplitude respond monotonically to Ap; not a reconstruction of aurora position or emissions. No synthetic intermediate data samples.",
+  "series": [
+    {
+      "month": "2025-11",
+      "mean_Ap": 21.01
+    },
+    {
+      "month": "2025-12",
+      "mean_Ap": 13.35
+    },
+    {
+      "month": "2026-01",
+      "mean_Ap": 22.47
+    },
+    {
+      "month": "2026-02",
+      "mean_Ap": 12.88
+    },
+    {
+      "month": "2026-03",
+      "mean_Ap": 15.44
+    },
+    {
+      "month": "2026-04",
+      "mean_Ap": 12.1
+    },
+    {
+      "month": "2026-05",
+      "mean_Ap": 9.8
+    },
+    {
+      "month": "2026-06",
+      "mean_Ap": 9.57
+    },
+    {
+      "month": "2026-07",
+      "mean_Ap": 10.16
+    },
+    {
+      "month": "2026-08",
+      "mean_Ap": 8.67
+    },
+    {
+      "month": "2026-09",
+      "mean_Ap": 7.54
+    },
+    {
+      "month": "2026-10",
+      "mean_Ap": 11
+    }
+  ]
+}
