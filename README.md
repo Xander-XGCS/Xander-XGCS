@@ -104,30 +104,94 @@ Tikkara is a long-horizon experiment in persistent procedural worlds, AI-driven 
 
 ## Current Investigations
 
-- `01` Full-field market-state prediction from the complete heatmap edge
-- `02` Supervised agent operations with durable memory and explicit approvals
-- `03` Decision intelligence for capital and opportunity allocation
-- `04` Privacy-preserving representations of human intent
-- `05` Editable procedural worlds with durable state
-- `06` Systems that grow more capable without becoming less understandable
+<sub>ACTIVE RESEARCH / SIX INTERCONNECTED TRACKS</sub>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <code>01 / MARKETS</code><br>
+      <strong>Full-field market-state prediction</strong><br>
+      From the complete heatmap edge
+    </td>
+    <td width="50%" valign="top">
+      <code>02 / AGENT SYSTEMS</code><br>
+      <strong>Supervised operations</strong><br>
+      Durable memory and explicit approvals
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <code>03 / DECISION INTELLIGENCE</code><br>
+      <strong>Capital and opportunity allocation</strong><br>
+      Decision systems for evaluating complex choices
+    </td>
+    <td valign="top">
+      <code>04 / PRIVACY</code><br>
+      <strong>Representing human intent</strong><br>
+      Without exposing unnecessary context
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <code>05 / PROCEDURAL SYSTEMS</code><br>
+      <strong>Editable, persistent worlds</strong><br>
+      Simulation with durable state
+    </td>
+    <td valign="top">
+      <code>06 / SYSTEM DESIGN</code><br>
+      <strong>Capability without opacity</strong><br>
+      Building systems that remain understandable as they grow
+    </td>
+  </tr>
+</table>
 
 ## Engineering Profile
 
-- **Systems:** Python, TypeScript, APIs, event-driven services, data pipelines, persistent state and memory
-- **AI and modeling:** Applied machine learning, time-series research, local inference, multi-agent orchestration, retrieval and tool-integrated workflows
-- **Infrastructure:** Docker, self-hosted GPU compute, MCP integrations, CI/CD, and cloud and edge deployment
-- **Interfaces and controls:** Research dashboards, operator interfaces, observability, permission boundaries, and human approval flows
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <code>01 / SYSTEMS</code><br>
+      <strong>Architecture &amp; integration</strong><br>
+      Python, TypeScript, APIs, event-driven services, data pipelines, persistent state and memory
+    </td>
+    <td width="50%" valign="top">
+      <code>02 / AI &amp; MODELING</code><br>
+      <strong>Intelligence &amp; orchestration</strong><br>
+      Applied machine learning, time-series research, local inference, multi-agent orchestration, retrieval and tool-integrated workflows
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <code>03 / INFRASTRUCTURE</code><br>
+      <strong>Private &amp; distributed compute</strong><br>
+      Docker, self-hosted GPU compute, MCP integrations, CI/CD, and cloud and edge deployment
+    </td>
+    <td valign="top">
+      <code>04 / INTERFACES &amp; CONTROLS</code><br>
+      <strong>Human-commanded operations</strong><br>
+      Research dashboards, operator interfaces, observability, permission boundaries, and human approval flows
+    </td>
+  </tr>
+</table>
 
 I use AI-assisted engineering to design, integrate, test, and operate these systems, with an emphasis on architecture, validation, and making complex behavior understandable to the people directing it.
 
 ## Operating Principles
 
-- `01` Preserve context.
-- `02` Treat uncertainty honestly.
-- `03` Keep humans involved where judgment matters.
-- `04` Prefer useful signal over output volume.
-- `05` Build systems that can still be understood.
-- `06` Test ideas against reality, not presentation quality.
+<table>
+  <tr>
+    <td width="50%" valign="top"><code>01</code> &nbsp; <strong>Preserve context.</strong></td>
+    <td width="50%" valign="top"><code>02</code> &nbsp; <strong>Treat uncertainty honestly.</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><code>03</code> &nbsp; <strong>Keep humans involved where judgment matters.</strong></td>
+    <td valign="top"><code>04</code> &nbsp; <strong>Prefer useful signal over output volume.</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><code>05</code> &nbsp; <strong>Build systems that can still be understood.</strong></td>
+    <td valign="top"><code>06</code> &nbsp; <strong>Test ideas against reality, not presentation quality.</strong></td>
+  </tr>
+</table>
 
 ## Public Activity
 
