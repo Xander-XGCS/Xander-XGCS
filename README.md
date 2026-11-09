@@ -31,13 +31,7 @@ The question connecting the work is straightforward:
 <sub>SELECT A SYSTEM / EXPAND TO READ ITS BRIEF</sub>
 
 <details>
-<summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-heatmap-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/operations-heatmap-light.svg">
-    <img src="assets/operations-heatmap-light.svg" alt="Heatmap Strategy Lab / ACTIVE RESEARCH. Expand to read system brief." width="100%">
-  </picture>
-</summary>
+<summary><img src="assets/operations-heatmap-adaptive.svg" alt="Heatmap Strategy Lab system card; expand to read the brief" width="95%" align="middle"></summary>
 
 `ACTIVE RESEARCH` · `MARKETS` · `MACHINE LEARNING`
 
@@ -63,13 +57,7 @@ The research spans market-state heatmaps, price and volume semantics, full-field
 </details>
 
 <details>
-<summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-valence-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/operations-valence-light.svg">
-    <img src="assets/operations-valence-light.svg" alt="Valence / PRIVATE DEVELOPMENT. Expand to read system brief." width="100%">
-  </picture>
-</summary>
+<summary><img src="assets/operations-valence-adaptive.svg" alt="Valence system card; expand to read the brief" width="95%" align="middle"></summary>
 
 `PRIVATE DEVELOPMENT` · `NETWORKS` · `COORDINATION`
 
@@ -93,13 +81,7 @@ The right person, resource, or opportunity often already exists somewhere in the
 </details>
 
 <details>
-<summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-kairellian-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/operations-kairellian-light.svg">
-    <img src="assets/operations-kairellian-light.svg" alt="Kairellian / ACTIVE DEVELOPMENT. Expand to read system brief." width="100%">
-  </picture>
-</summary>
+<summary><img src="assets/operations-kairellian-adaptive.svg" alt="Kairellian system card; expand to read the brief" width="95%" align="middle"></summary>
 
 `ACTIVE DEVELOPMENT` · `AGENTIC SYSTEMS` · `HUMAN CONTROL`
 
@@ -110,13 +92,7 @@ Its architecture centers on a **Command Bridge** for human oversight, a coordina
 </details>
 
 <details>
-<summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-berean-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/operations-berean-light.svg">
-    <img src="assets/operations-berean-light.svg" alt="Berean / DEPLOYED. Expand to read system brief." width="100%">
-  </picture>
-</summary>
+<summary><img src="assets/operations-berean-adaptive.svg" alt="Berean system card; expand to read the brief" width="95%" align="middle"></summary>
 
 `DEPLOYED` · `REASONING SYSTEMS`
 
@@ -125,13 +101,7 @@ Berean is an evidence-grounded reasoning system designed to keep source material
 </details>
 
 <details>
-<summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-tikkara-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/operations-tikkara-light.svg">
-    <img src="assets/operations-tikkara-light.svg" alt="Tikkara / FOUNDATIONAL R&amp;D. Expand to read system brief." width="100%">
-  </picture>
-</summary>
+<summary><img src="assets/operations-tikkara-adaptive.svg" alt="Tikkara system card; expand to read the brief" width="95%" align="middle"></summary>
 
 `FOUNDATIONAL R&D` · `PROCEDURAL SYSTEMS`
 
@@ -141,11 +111,14 @@ Tikkara is a long-horizon experiment in persistent procedural worlds, AI-driven 
 
 ## Product Direction
 
-### Kairos Dynamics
+<details>
+<summary><img src="assets/operations-kairos-adaptive.svg" alt="Kairos Dynamics / FORMATION. Expand to read product direction." width="95%" align="middle"></summary>
 
 `FORMATION` · `DECISION INTELLIGENCE` · `PRODUCT DIRECTION`
 
 **Kairos Dynamics** is the broader emerging product direction for turning research developed through XG Capital Strategies into deployable decision systems. **Kairellian** is one concrete system being built within that direction. Other areas of exploration include market intelligence, strategic research, private AI deployment, capital and opportunity intelligence, and organizational memory. These remain active development and research directions, not claims of commercial validation.
+
+</details>
 
 ## Current Investigations
 
@@ -185,7 +158,7 @@ Tikkara is a long-horizon experiment in persistent procedural worlds, AI-driven 
 
 </details>
 
-I use AI-assisted engineering to design, integrate, test, and operate these systems, with an emphasis on architecture, validation, and making complex behavior understandable to the people directing it.
+I use **agentic engineering** to design, integrate, test, and operate these systems, with an emphasis on architecture, validation, and making complex behavior understandable to the people directing it.
 
 ## Operating Principles
 
