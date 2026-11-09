@@ -16,19 +16,19 @@ Sources:
 
 Python 3.12, Pillow 11.x:
 
-\`\`\`sh
+```sh
 python -m pip install -r tools/schumann-live/requirements.txt
 python -m unittest discover -s tools/schumann-live -p "test_*.py"
 SCHUMANN_OUTPUT_DIR=/var/lib/xgcs-schumann python tools/schumann-live/schumann_live.py --once
-\`\`\`
+```
 
-By default, **no network image fetch occurs** and the output says UNAVAILABLE. Once source rights are explicitly confirmed, use \`SCHUMANN_REUSE_APPROVED=yes\` and run an HTTP service behind a **separately authorized** HTTPS route. A service example (adjust host mounts, routing and permissions yourself):
+By default, **no network image fetch occurs** and the output says UNAVAILABLE. Once source rights are explicitly confirmed, use `SCHUMANN_REUSE_APPROVED=yes` and run an HTTP service behind a **separately authorized** HTTPS route. A service example (adjust host mounts, routing and permissions yourself):
 
-\`\`\`sh
+```sh
 SCHUMANN_REUSE_APPROVED=yes SCHUMANN_OUTPUT_DIR=/var/lib/xgcs-schumann SCHUMANN_HOST=127.0.0.1 python tools/schumann-live/schumann_live.py
-\`\`\`
+```
 
-The service serves \`/profile-banner.png\`, \`/status.json\`, and \`/healthz\`, polling only once every six hours by default. HTTP responses use no-store headers. Do not expose direct origin ports or create a public Cloudflare route without the authorized routing process.
+The service serves `/profile-banner.png`, `/status.json`, and `/healthz`, polling only once every six hours by default. HTTP responses use no-store headers. Do not expose direct origin ports or create a public Cloudflare route without the authorized routing process.
 
 ## Status semantics
 
@@ -36,7 +36,7 @@ The service serves \`/profile-banner.png\`, \`/status.json\`, and \`/healthz\`, 
 - **DELAYED**: source file is valid but its publication metadata is stale, unavailable, or unchanged across >48h.
 - **UNAVAILABLE**: permissions not attested, fetching failed, or source image invalid. Fail closed, do not display a fabricated chart.
 
-The observation date is visibly printed in the unmodified spectrogram panel. The service intentionally reports \`observed_utc: null\` because **we have not built a machine-verifiable timestamp extractor**. The file modification time must never be relabeled as the measurement time. Until timestamp verification is implemented, avoid claiming fully verified "live" measurements.
+The observation date is visibly printed in the unmodified spectrogram panel. The service intentionally reports `observed_utc: null` because **we have not built a machine-verifiable timestamp extractor**. The file modification time must never be relabeled as the measurement time. Until timestamp verification is implemented, avoid claiming fully verified "live" measurements.
 
 ## Acceptance before README switch
 
@@ -44,7 +44,7 @@ The observation date is visibly printed in the unmodified spectrogram panel. The
 2. Deploy to authorized low-cost/self-hosted HTTP endpoint, ensure TLS.
 3. Compare observation dates in at least two source images over two daily cycles. Verify freshness and outage/unchanged-file fallbacks.
 4. Confirm GitHub's Camo image caching refreshes the delivered header; do not assume no-store headers override GitHub caching.
-5. Only then switch README's top \`src\` to the known live HTTPS endpoint. Preserve attribution at the bottom and link to BGS methodology.
+5. Only then switch README's top `src` to the known live HTTPS endpoint. Preserve attribution at the bottom and link to BGS methodology.
 6. No GitHub Actions, no arbitrary remote worker execution, and no image-faking.
 
 The static 2020 SOUSY inset remains the active header until all gates pass.
