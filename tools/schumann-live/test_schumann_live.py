@@ -32,7 +32,7 @@ class SchumannTests(unittest.TestCase):
 
     def test_old_unchanged_image_delayed(self):
         now=datetime(2026,11,8,20,tzinfo=timezone.utc)
-        previous={"sha256":"abc","checked_utc":(now-timedelta(hours=55)).isoformat()}
+        previous={"sha256":"abc","first_seen_utc":(now-timedelta(hours=55)).isoformat()}
         self.assertEqual(app.classify(now-timedelta(hours=3),now,previous,"abc"),"DELAYED")
         self.assertEqual(app.classify(now-timedelta(hours=3),now,previous,"def"),"CURRENT")
 
