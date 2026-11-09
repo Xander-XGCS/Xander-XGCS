@@ -1,5 +1,22 @@
 <img src="assets/profile-geomagnetic-365d.svg" alt="Xander Gray. Stylized daily planetary Ap geomagnetic history, 2025-11-09 through 2026-11-08, 365 observed days in a 60-second animation; not a real auroral-oval observation or live data." width="100%">
 
+<details>
+<summary><strong>What is this animation?</strong></summary>
+
+This is a stylized visualization of **one year of observed geomagnetic activity**: Earth shown as a system operating within a larger electromagnetic environment.
+
+I keep it here because it reflects a principle that underlies much of my work: **systems cannot be fully understood in isolation from the systems they exist within**.
+
+Earth provides a physical example of that idea. Its state is shaped not only by its own internal dynamics, but also by its interaction with the Sun and its surrounding environment. What looks stable is often the visible surface of a much more dynamic process.
+
+That same perspective informs how I approach markets, organizations, and intelligent systems. Their behavior emerges through **interaction, feedback, constraints, and changing context across time**.
+
+So this animation is not just aesthetic. It is a small systems-theoretic emblem of the worldview behind my research.
+
+<sub>Historical and stylized, based on observed geomagnetic activity. Not a live feed or literal auroral map.</sub>
+
+</details>
+
 <p align="center">
   <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
   &nbsp;·&nbsp;
