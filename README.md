@@ -1,4 +1,4 @@
-<img src="assets/profile-identity-dark.svg" alt="Xander Gray, founder and CEO, systems architect and quantitative market researcher" width="100%">
+<img src="assets/profile-geomagnetic-90d.svg" alt="Xander Gray. Animated 90-day daily geomagnetic history based on observed planetary Ap from August 11 to November 8, 2026; the polar auroral glow is stylized, not live or a measured geographic aurora map." width="100%">
 
 <p align="center">
   <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
@@ -193,3 +193,10 @@ I’m open to conversations with engineers, researchers, investors, and founders
 - [XG Capital Strategies](https://xgcapitalstrategies.com)
 - [XG Capital Insights](https://xgcapitalstrategies.com/xg-capital-insights)
 - [xander@xgcapitalstrategies.com](mailto:xander@xgcapitalstrategies.com)
+
+<details>
+<summary><sub>Earth-state visualization data and methodology</sub></summary>
+
+<sub>The 90-day animation illustrates **observed daily planetary Ap** for 11 August–8 November 2026, sourced from the <a href="https://celestrak.org/SpaceData/SW-Last5Years.txt">CelesTrak space-weather observed dataset</a>, which incorporates geomagnetic indices from <a href="https://kp.gfz.de/en/data">GFZ Helmholtz Centre for Geosciences</a>. Data attribution: Matzka et al. (2021), <a href="https://doi.org/10.1029/2020SW002641">The geomagnetic Kp index and derived indices of geomagnetic activity</a>, CC BY 4.0. <a href="assets/geomagnetic-ap-daily-2026-08-11_2026-11-08.json">View the 90 daily values and method</a>. The polar geography represents Earth's northern hemisphere, but its changing halo is an **artistic intensity encoding**, not a measured auroral footprint, official aurora forecast, or live feed. Recent index readings can be revised. Reduced-motion settings display the final observation.</sub>
+
+</details>
