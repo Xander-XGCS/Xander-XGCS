@@ -12,9 +12,5 @@
   <text x="948" y="49" text-anchor="end" fill="#b8a06a" font-size="12">HUMAN + MACHINE</text>
 </g>
 <text x="48" y="120" fill="#e8edf2" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="45" font-weight="700">XANDER GRAY</text>
-<g opacity=".55" stroke="#72a8b8" fill="none">
-  <path d="M760 99H948M760 121H948M760 143H948" stroke="#34414d"/>
-  <path d="M760 143H788L806 116L828 136L849 93L873 119H897L917 103L948 103" stroke-width="2"/>
-  <path d="M760 155H948" stroke="#34414d"/>
-</g>
+
 </svg>
