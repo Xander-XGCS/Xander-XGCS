@@ -125,7 +125,7 @@ def classify(published, now, previous=None, digest=None):
     if age is None or age < -2 or age > FRESH_HOURS:
         return "DELAYED"
     if previous and previous.get("sha256") == digest:
-        prior = previous.get("checked_utc")
+        prior = previous.get("first_seen_utc")
         try:
             seen = datetime.fromisoformat(prior)
             if (now - seen).total_seconds() > FRESH_HOURS * 3600:
@@ -178,6 +178,7 @@ def refresh():
         "source_file_last_modified_utc":published.isoformat() if published else None,
         "checked_utc":now.isoformat(),
         "sha256":digest,
+        "first_seen_utc": (prev.get("first_seen_utc") if prev and prev.get("sha256") == digest and prev.get("first_seen_utc") else now.isoformat()) if digest else None,
         "error":error,
         "reuse_attested":approved,
         "meaning":"CURRENT means file publication age <=48h, NOT a verified exact observation timestamp.",
