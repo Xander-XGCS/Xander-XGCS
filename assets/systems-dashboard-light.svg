@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
   <title id="title">Public systems register</title>
-  <desc id="desc">A hard-edged systems register listing Heatmap Strategy Lab, Valence, Kairos Dynamics, Berean, and Tikkara with their current development states and functions.</desc>
+  <desc id="desc">A hard-edged systems register listing Heatmap Strategy Lab, Valence, Kairellian, Berean, and Tikkara with their current development states and functions.</desc>
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
@@ -30,7 +30,7 @@
   <polygon points="18,28 28,18 972,18 982,28 982,622 972,632 28,632 18,622" fill="#f8f9fa" stroke="#7f8b95"/>
   <path d="M18 18H34M18 18V34M982 18H966M982 18V34M18 632H34M18 632V616M982 632H966M982 632V616" stroke="#6f5c32" stroke-width="2"/>
   <text class="sans" x="48" y="62" fill="#18222b" font-size="23" font-weight="700" letter-spacing=".3">SYSTEMS REGISTER</text>
-  <text class="mono" x="746" y="61" fill="#4c5a66" font-size="13">PUBLIC SURFACE / REV 2026.08</text>
+  <text class="mono" x="746" y="61" fill="#4c5a66" font-size="13">PUBLIC SURFACE / REV 2026.11</text>
   <path d="M48 78H952" stroke="#7f8b95"/>
 
   <g class="mono">
@@ -92,11 +92,11 @@
       <rect x="48" y="0" width="904" height="66" fill="#f8f9fa" stroke="#b3bcc3"/>
       <rect class="row-activity row-03" x="53" y="1" width="898" height="64" fill="#6f5c32"/>
       <rect class="row-terminal light-03" x="48" y="0" width="5" height="66" fill="#806d3f"/>
-      <text x="72" y="25" fill="#4c5a66" font-size="11">SYS-03 / PRODUCT FORMATION</text>
-      <text x="72" y="48" fill="#18222b" font-size="17">KAIROS DYNAMICS</text>
+      <text x="72" y="25" fill="#4c5a66" font-size="11">SYS-03 / AGENTIC SYSTEMS</text>
+      <text x="72" y="48" fill="#18222b" font-size="17">KAIRELLIAN</text>
       <polygon points="392,25 400,17 616,17 616,41 608,49 392,49" fill="#f1f3f5" stroke="#8b7a55"/>
-      <text x="504" y="38" fill="#6f5c32" font-size="12" text-anchor="middle">FORMATION</text>
-      <text x="672" y="39" fill="#34424e" font-size="14">DEPLOYABLE DECISION SYSTEMS</text>
+      <text x="504" y="38" fill="#6f5c32" font-size="12" text-anchor="middle">ACTIVE DEVELOPMENT</text>
+      <text x="672" y="39" fill="#34424e" font-size="14">HUMAN-COMMANDED OPERATIONS</text>
       <rect class="status-light light-03" x="934" y="28" width="7" height="10" fill="#806d3f"/>
     </g>
 
