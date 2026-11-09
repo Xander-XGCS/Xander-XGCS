@@ -1,18 +1,4 @@
-<table>
-  <tr>
-    <td width="76%" valign="middle">
-      <img src="assets/profile-identity-dark.svg" alt="Xander Gray, founder and CEO, systems architect and quantitative market researcher" width="100%">
-    </td>
-    <td width="24%" valign="middle" align="center">
-      <a href="https://geomag.bgs.ac.uk/research/inductioncoils.html" title="Latest daily Eskdalemuir Schumann spectrogram from the British Geological Survey">
-        <img src="https://geomag.bgs.ac.uk/images/currentSpectrogramCH1.jpg" width="100%" alt="British Geological Survey Eskdalemuir North-coil measured ELF spectrogram, typically the previous UTC day; date shown in the image">
-      </a>
-      <sub>BGS / ESKDALEMUIR · DAILY DATA</sub>
-    </td>
-  </tr>
-</table>
-
-<a href="https://ressonanciaschumannhoje.com/en/" title="Historical Schumann fundamental-frequency observations and measurement methodology"><img src="assets/schumann-30d-history.svg" alt="Animated 30-day Schumann fundamental-frequency history, October 10–November 8, 2026. Measured values are present through November 1; November 2–8 are marked source unavailable. Historical snapshot, not live data." width="100%"></a>
+<img src="assets/profile-identity-dark.svg" alt="Xander Gray, founder and CEO, systems architect and quantitative market researcher" width="100%">
 
 <p align="center">
   <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
@@ -207,12 +193,3 @@ I’m open to conversations with engineers, researchers, investors, and founders
 - [XG Capital Strategies](https://xgcapitalstrategies.com)
 - [XG Capital Insights](https://xgcapitalstrategies.com/xg-capital-insights)
 - [xander@xgcapitalstrategies.com](mailto:xander@xgcapitalstrategies.com)
-
-<details>
-<summary><sub>Scientific image source and attribution</sub></summary>
-
-<sub>Daily Schumann-resonance spectrogram: <a href="https://geomag.bgs.ac.uk/research/inductioncoils.html">British Geological Survey (BGS), Eskdalemuir Observatory</a>, North-pointing induction coil, © UKRI 2026. The original chart is linked directly from <a href="https://geomag.bgs.ac.uk/images/currentSpectrogramCH1.jpg">BGS's published daily image</a> without alteration. BGS publishes the previous day's measurements. GitHub may cache the image; check the observation date printed within the chart. This is a single-station observation, not a global scalar index or a continuous real-time reading. Source credit does not imply BGS endorsement.</sub>
-
-<sub>Animated 30-day history: one reported valid fundamental-frequency reading per UTC day (10 Oct–8 Nov 2026), derived from the openly published <a href="https://ressonanciaschumannhoje.com/dados/historico.json">Ressonância de Schumann Hoje 30-day series</a> based on <a href="https://ressonanciaschumannhoje.com/en/">Tomsk SOS observations</a>. The series is extracted from spectrogram colours; it is not a calibrated field-strength measurement or a reconstructed 30-day spectrogram. Source gaps after 1 Nov are explicitly marked, without interpolation. <a href="assets/schumann-30d-source.json">Snapshot data and method</a>. This graphic is a historical snapshot, not an automatically updating source.</sub>
-
-</details>
