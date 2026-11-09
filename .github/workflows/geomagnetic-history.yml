@@ -1,0 +1,51 @@
+name: Refresh geomagnetic profile history
+
+on:
+  # Monday 06:41 UTC (Sunday night on the US Pacific coast).
+  schedule:
+    - cron: "41 6 * * 1"
+  # One bootstrap when this workflow file is first committed or edited.
+  push:
+    paths:
+      - .github/workflows/geomagnetic-history.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: geomagnetic-profile-history
+  cancel-in-progress: false
+
+jobs:
+  update-profile:
+    name: Validate and refresh 365-day profile asset
+    if: github.repository == 'Xander-XGCS/Xander-XGCS'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Run offline unit tests
+        run: python3 -m unittest discover -s tools/geomagnetic/tests -p "test_*.py" -v
+
+      - name: Download observed source and regenerate
+        run: python3 tools/geomagnetic/build.py
+
+      - name: Commit only when source observations changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          git add README.md assets/profile-geomagnetic-365d.svg assets/geomagnetic-ap-daily-rolling-365.json
+          if git diff --cached --quiet; then
+            echo "No historical data change; no commit."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "chore(profile): refresh rolling geomagnetic history [skip ci]"
+          git push origin HEAD:main
