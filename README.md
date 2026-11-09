@@ -1,8 +1,6 @@
-<img alt="Xander Gray — founder and CEO, systems architect, and quantitative market researcher" src="assets/profile-identity-dark.svg" width="100%">
+<img alt="Xander Gray, founder and CEO, with a compact archived SOUSY Schumann resonance spectrogram inset to the right of his name" src="assets/profile-identity-dark.svg" width="100%">
 
-[![Schumann resonance spectrogram from the SOUSY Arctic station, 4 December 2020, shown in a dark frame with measured NS and EW magnetic channels over 0–30 Hz](assets/schumann-spectrogram-dark.svg)](https://zenodo.org/records/5919944)
-
-<sub>SOUSY, Svalbard · 4 December 2020, 00:00–15:37:51 UTC · published station spectrogram · <a href="https://zenodo.org/records/5919944">Koloskov et al. / CC BY 4.0</a>. Archived observation. Dark frame and margins adapted by XGCS; heatmap colours and scale retained. <a href="assets/schumann-spectrogram-source.png">Original figure</a> · <a href="assets/schumann-spectrogram.json">Provenance</a>.</sub>
+<sub>Schumann inset: SOUSY, Svalbard · 4 December 2020 · archived observation, not live data. <a href="assets/schumann-spectrogram-dark.svg">View full spectrogram</a> · <a href="https://zenodo.org/records/5919944">Koloskov et al. / CC BY 4.0</a> · <a href="assets/schumann-spectrogram-source.png">Original figure</a> · <a href="assets/schumann-spectrogram.json">Provenance</a>.</sub>
 
 <p align="center">
   <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
@@ -81,6 +79,14 @@ The right person, resource, or opportunity often already exists somewhere in the
 `FORMATION` · `DECISION INTELLIGENCE` · `PRODUCT DIRECTION`
 
 Kairos Dynamics is the emerging product direction for turning research developed through XG Capital Strategies into deployable decision systems. The work is forming around market intelligence, strategic research, agentic workflows, private deployment, organizational memory, capital and opportunity intelligence, and human-controlled AI. It is an active direction—not a claim of commercial proof.
+
+### Kairellian
+
+`ACTIVE DEVELOPMENT` · `AGENTIC SYSTEMS` · `HUMAN CONTROL`
+
+**Kairellian** is a human-commanded agentic operating environment I’m building within the Kairos Dynamics product direction. The vessel-and-crew metaphor serves a practical purpose: to make increasingly autonomous digital work easier for people to understand, direct, and supervise.
+
+The architecture centers on a **Command Bridge** for human oversight, a coordinating AI **First Officer**, and modular systems for memory, communication, research, security, and execution. The current engineering focus is **Frigate**, the personal edition, with local deployment, explicit approval boundaries, and clear visibility into agent activity. This is an active development effort, not a publicly launched product.
 
 ### Berean
 
