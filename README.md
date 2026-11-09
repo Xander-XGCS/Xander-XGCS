@@ -1,7 +1,5 @@
 <img alt="Xander Gray, founder and CEO, with a compact archived SOUSY Schumann resonance spectrogram inset to the right of his name" src="assets/profile-identity-dark.svg" width="100%">
 
-<sub>Schumann inset: SOUSY, Svalbard · 4 December 2020 · archived observation, not live data. <a href="assets/schumann-spectrogram-dark.svg">View full spectrogram</a> · <a href="https://zenodo.org/records/5919944">Koloskov et al. / CC BY 4.0</a> · <a href="assets/schumann-spectrogram-source.png">Original figure</a> · <a href="assets/schumann-spectrogram.json">Provenance</a>.</sub>
-
 <p align="center">
   <a href="https://xgcapitalstrategies.com">XG Capital Strategies</a>
   &nbsp;·&nbsp;
@@ -30,7 +28,16 @@ The question connecting the work is straightforward:
 
 ## Current Operations
 
-### Heatmap Strategy Lab
+<sub>SELECT A SYSTEM / EXPAND TO READ ITS BRIEF</sub>
+
+<details>
+<summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-heatmap-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/operations-heatmap-light.svg">
+    <img src="assets/operations-heatmap-light.svg" alt="Heatmap Strategy Lab / ACTIVE RESEARCH. Expand to read system brief." width="100%">
+  </picture>
+</summary>
 
 `ACTIVE RESEARCH` · `MARKETS` · `MACHINE LEARNING`
 
@@ -53,7 +60,16 @@ The research spans market-state heatmaps, price and volume semantics, full-field
 
 </details>
 
-### Valence
+</details>
+
+<details>
+<summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-valence-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/operations-valence-light.svg">
+    <img src="assets/operations-valence-light.svg" alt="Valence / PRIVATE DEVELOPMENT. Expand to read system brief." width="100%">
+  </picture>
+</summary>
 
 `PRIVATE DEVELOPMENT` · `NETWORKS` · `COORDINATION`
 
@@ -74,7 +90,16 @@ The right person, resource, or opportunity often already exists somewhere in the
 
 </details>
 
-### Kairellian
+</details>
+
+<details>
+<summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-kairellian-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/operations-kairellian-light.svg">
+    <img src="assets/operations-kairellian-light.svg" alt="Kairellian / ACTIVE DEVELOPMENT. Expand to read system brief." width="100%">
+  </picture>
+</summary>
 
 `ACTIVE DEVELOPMENT` · `AGENTIC SYSTEMS` · `HUMAN CONTROL`
 
@@ -82,17 +107,37 @@ The right person, resource, or opportunity often already exists somewhere in the
 
 Its architecture centers on a **Command Bridge** for human oversight, a coordinating AI **First Officer**, and modular systems for memory, communication, research, security, and execution. The immediate engineering focus is **Frigate**, the personal edition, with self-hosted operation, explicit approval boundaries, and visible agent activity. It is in active development, not a publicly launched product.
 
-### Berean
+</details>
+
+<details>
+<summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-berean-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/operations-berean-light.svg">
+    <img src="assets/operations-berean-light.svg" alt="Berean / DEPLOYED. Expand to read system brief." width="100%">
+  </picture>
+</summary>
 
 `DEPLOYED` · `REASONING SYSTEMS`
 
 Berean is an evidence-grounded reasoning system designed to keep source material, interpretation, and conclusion visibly separated. It began as a Scripture-first research tool, but the underlying architecture applies to other domains where claims must be tested against an authoritative corpus.
 
-### Tikkara
+</details>
+
+<details>
+<summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/operations-tikkara-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/operations-tikkara-light.svg">
+    <img src="assets/operations-tikkara-light.svg" alt="Tikkara / FOUNDATIONAL R&amp;D. Expand to read system brief." width="100%">
+  </picture>
+</summary>
 
 `FOUNDATIONAL R&D` · `PROCEDURAL SYSTEMS`
 
 Tikkara is a long-horizon experiment in persistent procedural worlds, AI-driven characters, generated assets, editable simulation, and emergent narrative. It connects naturally to the rest of the work: markets, organizations, and simulated worlds all depend on state, memory, incentives, coordination, and change over time.
+
+</details>
 
 ## Product Direction
 
@@ -104,94 +149,63 @@ Tikkara is a long-horizon experiment in persistent procedural worlds, AI-driven 
 
 ## Current Investigations
 
-<sub>ACTIVE RESEARCH / SIX INTERCONNECTED TRACKS</sub>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/investigations-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/investigations-light.svg">
+    <img src="assets/investigations-light.svg" alt="Six investigations in markets, agent systems, capital intelligence, privacy, procedural systems, and understandable system design." width="100%">
+  </picture>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <code>01 / MARKETS</code><br>
-      <strong>Full-field market-state prediction</strong><br>
-      From the complete heatmap edge
-    </td>
-    <td width="50%" valign="top">
-      <code>02 / AGENT SYSTEMS</code><br>
-      <strong>Supervised operations</strong><br>
-      Durable memory and explicit approvals
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <code>03 / DECISION INTELLIGENCE</code><br>
-      <strong>Capital and opportunity allocation</strong><br>
-      Decision systems for evaluating complex choices
-    </td>
-    <td valign="top">
-      <code>04 / PRIVACY</code><br>
-      <strong>Representing human intent</strong><br>
-      Without exposing unnecessary context
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <code>05 / PROCEDURAL SYSTEMS</code><br>
-      <strong>Editable, persistent worlds</strong><br>
-      Simulation with durable state
-    </td>
-    <td valign="top">
-      <code>06 / SYSTEM DESIGN</code><br>
-      <strong>Capability without opacity</strong><br>
-      Building systems that remain understandable as they grow
-    </td>
-  </tr>
-</table>
+<details>
+<summary>Text version of the investigation matrix</summary>
+
+- `01` Full-field market-state prediction from the complete heatmap edge
+- `02` Supervised agent operations with durable memory and explicit approvals
+- `03` Decision intelligence for capital and opportunity allocation
+- `04` Privacy-preserving representations of human intent
+- `05` Editable procedural worlds with durable state
+- `06` Systems that grow more capable without becoming less understandable
+
+</details>
 
 ## Engineering Profile
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <code>01 / SYSTEMS</code><br>
-      <strong>Architecture &amp; integration</strong><br>
-      Python, TypeScript, APIs, event-driven services, data pipelines, persistent state and memory
-    </td>
-    <td width="50%" valign="top">
-      <code>02 / AI &amp; MODELING</code><br>
-      <strong>Intelligence &amp; orchestration</strong><br>
-      Applied machine learning, time-series research, local inference, multi-agent orchestration, retrieval and tool-integrated workflows
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <code>03 / INFRASTRUCTURE</code><br>
-      <strong>Private &amp; distributed compute</strong><br>
-      Docker, self-hosted GPU compute, MCP integrations, CI/CD, and cloud and edge deployment
-    </td>
-    <td valign="top">
-      <code>04 / INTERFACES &amp; CONTROLS</code><br>
-      <strong>Human-commanded operations</strong><br>
-      Research dashboards, operator interfaces, observability, permission boundaries, and human approval flows
-    </td>
-  </tr>
-</table>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/engineering-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/engineering-light.svg">
+    <img src="assets/engineering-light.svg" alt="Four engineering capability areas: systems, AI and modeling, infrastructure, interfaces and controls." width="100%">
+  </picture>
+
+<details>
+<summary>Expanded engineering capabilities</summary>
+
+- **Systems:** Python, TypeScript, APIs, event-driven services, data pipelines, persistent state and memory
+- **AI and modeling:** Applied machine learning, time-series research, local inference, multi-agent orchestration, retrieval and tool-integrated workflows
+- **Infrastructure:** Docker, self-hosted GPU compute, MCP integrations, CI/CD, and cloud and edge deployment
+- **Interfaces and controls:** Research dashboards, operator interfaces, observability, permission boundaries, and human approval flows
+
+</details>
 
 I use AI-assisted engineering to design, integrate, test, and operate these systems, with an emphasis on architecture, validation, and making complex behavior understandable to the people directing it.
 
 ## Operating Principles
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><code>01</code> &nbsp; <strong>Preserve context.</strong></td>
-    <td width="50%" valign="top"><code>02</code> &nbsp; <strong>Treat uncertainty honestly.</strong></td>
-  </tr>
-  <tr>
-    <td valign="top"><code>03</code> &nbsp; <strong>Keep humans involved where judgment matters.</strong></td>
-    <td valign="top"><code>04</code> &nbsp; <strong>Prefer useful signal over output volume.</strong></td>
-  </tr>
-  <tr>
-    <td valign="top"><code>05</code> &nbsp; <strong>Build systems that can still be understood.</strong></td>
-    <td valign="top"><code>06</code> &nbsp; <strong>Test ideas against reality, not presentation quality.</strong></td>
-  </tr>
-</table>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/principles-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/principles-light.svg">
+    <img src="assets/principles-light.svg" alt="Six operating principles: preserve context, treat uncertainty honestly, keep humans involved, prefer signal, build understandable systems, and test against reality." width="100%">
+  </picture>
+
+<details>
+<summary>Operating principles as text</summary>
+
+- `01` Preserve context.
+- `02` Treat uncertainty honestly.
+- `03` Keep humans involved where judgment matters.
+- `04` Prefer useful signal over output volume.
+- `05` Build systems that can still be understood.
+- `06` Test ideas against reality, not presentation quality.
+
+</details>
 
 ## Public Activity
 
@@ -206,3 +220,10 @@ I’m open to conversations with engineers, researchers, investors, and founders
 - [XG Capital Strategies](https://xgcapitalstrategies.com)
 - [XG Capital Insights](https://xgcapitalstrategies.com/xg-capital-insights)
 - [xander@xgcapitalstrategies.com](mailto:xander@xgcapitalstrategies.com)
+
+<details>
+<summary><sub>Scientific image source and attribution</sub></summary>
+
+<sub>Header inset: archived SOUSY, Svalbard spectrogram, 4 December 2020, 00:00–15:37:51 UTC; not live data. <a href="https://zenodo.org/records/5919944">Koloskov et al., CC BY 4.0</a>. Original measured colours and scale retained; frame and margins adapted by XGCS. <a href="assets/schumann-spectrogram-dark.svg">Full spectrogram</a> · <a href="assets/schumann-spectrogram-source.png">Original figure</a> · <a href="assets/schumann-spectrogram.json">Provenance</a>.</sub>
+
+</details>
