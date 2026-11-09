@@ -1,0 +1,375 @@
+{
+  "description": "90 complete UTC days of observed daily planetary Ap (mean of eight 3-hour planetary ap indices), for a historical stylized GitHub banner",
+  "interval_utc": "2026-08-11/2026-11-08",
+  "metric": "daily planetary Ap, unitless; NOT Kp, not aurora oval measurements",
+  "source_url": "https://celestrak.org/SpaceData/SW-Last5Years.txt",
+  "source_section": "BEGIN OBSERVED through END OBSERVED (2026-08-11 at line 2065 through 2026-11-08 at line 2154 of 2026-11-09 snapshot)",
+  "underlying_provider": "GFZ Helmholtz Centre for Geosciences, Adolf Schmidt Observatory, Niemegk",
+  "underlying_url": "https://kp.gfz.de/en/data",
+  "attribution": "Matzka et al. (2021), The geomagnetic Kp index and derived indices of geomagnetic activity. Space Weather 19, e2020SW002641. doi:10.1029/2020SW002641",
+  "license": "GFZ geomagnetic Kp/ap/Ap CC BY 4.0",
+  "limitations": "These are observed records (not forecast rows); recently released readings may be preliminary and subject to revision. The aurora-shaped glow is an abstract aesthetic encoding of Ap intensity, not a measured or modeled geographic auroral oval. No values interpolated.",
+  "animation": "90 actual daily states, 100ms per state, 9 second loop, reduced-motion fallback to November 8.",
+  "daily": [
+    {
+      "date_utc": "2026-08-11",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-08-12",
+      "planetary_Ap": 7
+    },
+    {
+      "date_utc": "2026-08-13",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-08-14",
+      "planetary_Ap": 8
+    },
+    {
+      "date_utc": "2026-08-15",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-08-16",
+      "planetary_Ap": 3
+    },
+    {
+      "date_utc": "2026-08-17",
+      "planetary_Ap": 11
+    },
+    {
+      "date_utc": "2026-08-18",
+      "planetary_Ap": 24
+    },
+    {
+      "date_utc": "2026-08-19",
+      "planetary_Ap": 17
+    },
+    {
+      "date_utc": "2026-08-20",
+      "planetary_Ap": 10
+    },
+    {
+      "date_utc": "2026-08-21",
+      "planetary_Ap": 7
+    },
+    {
+      "date_utc": "2026-08-22",
+      "planetary_Ap": 3
+    },
+    {
+      "date_utc": "2026-08-23",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-08-24",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-08-25",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-08-26",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-08-27",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-08-28",
+      "planetary_Ap": 12
+    },
+    {
+      "date_utc": "2026-08-29",
+      "planetary_Ap": 17
+    },
+    {
+      "date_utc": "2026-08-30",
+      "planetary_Ap": 14
+    },
+    {
+      "date_utc": "2026-08-31",
+      "planetary_Ap": 11
+    },
+    {
+      "date_utc": "2026-09-01",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-09-02",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-09-03",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-09-04",
+      "planetary_Ap": 3
+    },
+    {
+      "date_utc": "2026-09-05",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-09-06",
+      "planetary_Ap": 4
+    },
+    {
+      "date_utc": "2026-09-07",
+      "planetary_Ap": 18
+    },
+    {
+      "date_utc": "2026-09-08",
+      "planetary_Ap": 28
+    },
+    {
+      "date_utc": "2026-09-09",
+      "planetary_Ap": 10
+    },
+    {
+      "date_utc": "2026-09-10",
+      "planetary_Ap": 8
+    },
+    {
+      "date_utc": "2026-09-11",
+      "planetary_Ap": 7
+    },
+    {
+      "date_utc": "2026-09-12",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-09-13",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-09-14",
+      "planetary_Ap": 12
+    },
+    {
+      "date_utc": "2026-09-15",
+      "planetary_Ap": 7
+    },
+    {
+      "date_utc": "2026-09-16",
+      "planetary_Ap": 8
+    },
+    {
+      "date_utc": "2026-09-17",
+      "planetary_Ap": 8
+    },
+    {
+      "date_utc": "2026-09-18",
+      "planetary_Ap": 4
+    },
+    {
+      "date_utc": "2026-09-19",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-09-20",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-09-21",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-09-22",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-09-23",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-09-24",
+      "planetary_Ap": 14
+    },
+    {
+      "date_utc": "2026-09-25",
+      "planetary_Ap": 20
+    },
+    {
+      "date_utc": "2026-09-26",
+      "planetary_Ap": 10
+    },
+    {
+      "date_utc": "2026-09-27",
+      "planetary_Ap": 7
+    },
+    {
+      "date_utc": "2026-09-28",
+      "planetary_Ap": 3
+    },
+    {
+      "date_utc": "2026-09-29",
+      "planetary_Ap": 3
+    },
+    {
+      "date_utc": "2026-09-30",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-10-01",
+      "planetary_Ap": 3
+    },
+    {
+      "date_utc": "2026-10-02",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-10-03",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-10-04",
+      "planetary_Ap": 38
+    },
+    {
+      "date_utc": "2026-10-05",
+      "planetary_Ap": 23
+    },
+    {
+      "date_utc": "2026-10-06",
+      "planetary_Ap": 10
+    },
+    {
+      "date_utc": "2026-10-07",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-10-08",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-10-09",
+      "planetary_Ap": 10
+    },
+    {
+      "date_utc": "2026-10-10",
+      "planetary_Ap": 52
+    },
+    {
+      "date_utc": "2026-10-11",
+      "planetary_Ap": 13
+    },
+    {
+      "date_utc": "2026-10-12",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-10-13",
+      "planetary_Ap": 12
+    },
+    {
+      "date_utc": "2026-10-14",
+      "planetary_Ap": 10
+    },
+    {
+      "date_utc": "2026-10-15",
+      "planetary_Ap": 10
+    },
+    {
+      "date_utc": "2026-10-16",
+      "planetary_Ap": 11
+    },
+    {
+      "date_utc": "2026-10-17",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-10-18",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-10-19",
+      "planetary_Ap": 1
+    },
+    {
+      "date_utc": "2026-10-20",
+      "planetary_Ap": 8
+    },
+    {
+      "date_utc": "2026-10-21",
+      "planetary_Ap": 19
+    },
+    {
+      "date_utc": "2026-10-22",
+      "planetary_Ap": 17
+    },
+    {
+      "date_utc": "2026-10-23",
+      "planetary_Ap": 11
+    },
+    {
+      "date_utc": "2026-10-24",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-10-25",
+      "planetary_Ap": 3
+    },
+    {
+      "date_utc": "2026-10-26",
+      "planetary_Ap": 4
+    },
+    {
+      "date_utc": "2026-10-27",
+      "planetary_Ap": 6
+    },
+    {
+      "date_utc": "2026-10-28",
+      "planetary_Ap": 7
+    },
+    {
+      "date_utc": "2026-10-29",
+      "planetary_Ap": 2
+    },
+    {
+      "date_utc": "2026-10-30",
+      "planetary_Ap": 9
+    },
+    {
+      "date_utc": "2026-10-31",
+      "planetary_Ap": 22
+    },
+    {
+      "date_utc": "2026-11-01",
+      "planetary_Ap": 19
+    },
+    {
+      "date_utc": "2026-11-02",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-11-03",
+      "planetary_Ap": 4
+    },
+    {
+      "date_utc": "2026-11-04",
+      "planetary_Ap": 9
+    },
+    {
+      "date_utc": "2026-11-05",
+      "planetary_Ap": 5
+    },
+    {
+      "date_utc": "2026-11-06",
+      "planetary_Ap": 8
+    },
+    {
+      "date_utc": "2026-11-07",
+      "planetary_Ap": 20
+    },
+    {
+      "date_utc": "2026-11-08",
+      "planetary_Ap": 20
+    }
+  ]
+}
