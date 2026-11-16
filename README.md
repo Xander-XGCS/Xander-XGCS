@@ -1,4 +1,4 @@
-<img src="assets/profile-geomagnetic-365d.svg" alt="Xander Gray. Stylized daily planetary Ap geomagnetic history, 2025-11-09 through 2026-11-08, 365 observed days in a 60-second animation; not a real auroral-oval observation or live data." width="100%">
+<img src="assets/profile-geomagnetic-365d.svg" alt="Xander Gray. Stylized daily planetary Ap geomagnetic history, 2025-11-16 through 2026-11-15, 365 observed days in a 60-second animation; not a real auroral-oval observation or live data." width="100%">
 
 <details>
 <summary><strong>What is this animation?</strong></summary>
@@ -214,6 +214,6 @@ I’m open to conversations with engineers, researchers, investors, and founders
 <details>
 <summary><sub>Earth-state visualization data and methodology</sub></summary>
 
-<sub>The 60-second loop represents 365 **observed daily planetary Ap** values from 09 November 2025 through 08 November 2026. Data source: <a href="https://celestrak.org/SpaceData/SW-Last5Years.txt">CelesTrak observed space-weather history</a>, derived from <a href="https://kp.gfz.de/en/data">GFZ geomagnetic indices</a>. Credit: Matzka et al. (2021), <a href="https://doi.org/10.1029/2020SW002641">The geomagnetic Kp index and derived indices of geomagnetic activity</a>, CC BY 4.0. <a href="assets/geomagnetic-ap-daily-rolling-365.json">View 365 source values and method</a>. The moving glow is a **stylized intensity indicator**, not a measured auroral footprint, an official aurora forecast, or a live feed. Recent measurements can be revised; the historical window updates weekly. Reduced-motion preferences disable animation.</sub>
+<sub>The 60-second loop represents 365 **observed daily planetary Ap** values from 16 November 2025 through 15 November 2026. Data source: <a href="https://celestrak.org/SpaceData/SW-Last5Years.txt">CelesTrak observed space-weather history</a>, derived from <a href="https://kp.gfz.de/en/data">GFZ geomagnetic indices</a>. Credit: Matzka et al. (2021), <a href="https://doi.org/10.1029/2020SW002641">The geomagnetic Kp index and derived indices of geomagnetic activity</a>, CC BY 4.0. <a href="assets/geomagnetic-ap-daily-rolling-365.json">View 365 source values and method</a>. The moving glow is a **stylized intensity indicator**, not a measured auroral footprint, an official aurora forecast, or a live feed. Recent measurements can be revised; the historical window updates weekly. Reduced-motion preferences disable animation.</sub>
 
 </details>

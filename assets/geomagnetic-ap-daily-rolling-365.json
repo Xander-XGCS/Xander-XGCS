@@ -1,42 +1,14 @@
 {
   "metric": "daily planetary Ap (dimensionless)",
-  "interval_utc": "2025-11-09/2026-11-08",
+  "interval_utc": "2025-11-16/2026-11-15",
   "observation_count": 365,
   "provider": "CelesTrak CSSI observed space-weather data (GFZ-derived geomagnetic indices)",
   "source": "https://celestrak.org/SpaceData/SW-Last5Years.txt",
   "citation": "GFZ / Matzka et al. (2021), via CelesTrak observed daily planetary Ap",
-  "source_selected_values_sha256": "412c18fcf7fa567c6b8d9a72a653d4606ef1806029229b0795d139bfc310c7b6",
+  "source_selected_values_sha256": "690bb2e47be34d9fba901a542d49b0d28f1fddccebfaada039a117c786936476",
   "interpretation": "Auroral ring is a graphic intensity encoding of observed Ap, not an actual auroral footprint or live data.",
   "loop_seconds": 60,
   "observations": [
-    {
-      "date": "2025-11-09",
-      "Ap": 7
-    },
-    {
-      "date": "2025-11-10",
-      "Ap": 14
-    },
-    {
-      "date": "2025-11-11",
-      "Ap": 6
-    },
-    {
-      "date": "2025-11-12",
-      "Ap": 137
-    },
-    {
-      "date": "2025-11-13",
-      "Ap": 57
-    },
-    {
-      "date": "2025-11-14",
-      "Ap": 3
-    },
-    {
-      "date": "2025-11-15",
-      "Ap": 8
-    },
     {
       "date": "2025-11-16",
       "Ap": 17
@@ -1327,7 +1299,7 @@
     },
     {
       "date": "2026-10-04",
-      "Ap": 38
+      "Ap": 35
     },
     {
       "date": "2026-10-05",
@@ -1339,7 +1311,7 @@
     },
     {
       "date": "2026-10-07",
-      "Ap": 5
+      "Ap": 6
     },
     {
       "date": "2026-10-08",
@@ -1347,15 +1319,15 @@
     },
     {
       "date": "2026-10-09",
-      "Ap": 10
+      "Ap": 11
     },
     {
       "date": "2026-10-10",
-      "Ap": 52
+      "Ap": 51
     },
     {
       "date": "2026-10-11",
-      "Ap": 13
+      "Ap": 12
     },
     {
       "date": "2026-10-12",
@@ -1367,11 +1339,11 @@
     },
     {
       "date": "2026-10-14",
-      "Ap": 10
+      "Ap": 8
     },
     {
       "date": "2026-10-15",
-      "Ap": 10
+      "Ap": 9
     },
     {
       "date": "2026-10-16",
@@ -1395,7 +1367,7 @@
     },
     {
       "date": "2026-10-21",
-      "Ap": 19
+      "Ap": 20
     },
     {
       "date": "2026-10-22",
@@ -1403,7 +1375,7 @@
     },
     {
       "date": "2026-10-23",
-      "Ap": 11
+      "Ap": 10
     },
     {
       "date": "2026-10-24",
@@ -1411,7 +1383,7 @@
     },
     {
       "date": "2026-10-25",
-      "Ap": 3
+      "Ap": 2
     },
     {
       "date": "2026-10-26",
@@ -1423,7 +1395,7 @@
     },
     {
       "date": "2026-10-28",
-      "Ap": 7
+      "Ap": 6
     },
     {
       "date": "2026-10-29",
@@ -1431,7 +1403,7 @@
     },
     {
       "date": "2026-10-30",
-      "Ap": 9
+      "Ap": 8
     },
     {
       "date": "2026-10-31",
@@ -1468,6 +1440,34 @@
     {
       "date": "2026-11-08",
       "Ap": 20
+    },
+    {
+      "date": "2026-11-09",
+      "Ap": 11
+    },
+    {
+      "date": "2026-11-10",
+      "Ap": 9
+    },
+    {
+      "date": "2026-11-11",
+      "Ap": 6
+    },
+    {
+      "date": "2026-11-12",
+      "Ap": 4
+    },
+    {
+      "date": "2026-11-13",
+      "Ap": 3
+    },
+    {
+      "date": "2026-11-14",
+      "Ap": 3
+    },
+    {
+      "date": "2026-11-15",
+      "Ap": 2
     }
   ]
 }
